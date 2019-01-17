@@ -2,12 +2,12 @@
   "name": "rms",
   "version": "1.0.0",
   "description": "Reveler Media Services Web Presence",
-  "homepage": "https://RevelerMediaServices.github.io/rmsWebTemplateSRS",
+  "homepage": "https://revelermediaservices.github.io/rmsWebTemplateSRS/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
-    "build": "next build && next export && gh-pages-d",
+    "build": "next build && next export && gh-pages -d out",
     "start": "next start"
   },
   "author": "",
