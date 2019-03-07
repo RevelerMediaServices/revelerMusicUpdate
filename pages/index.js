@@ -9,6 +9,13 @@ function Index() {
   return (
     <Layout>
       <IndexDiv>
+        <NextSeo
+          config={{
+            title: "Reveler Media Services Next.js/Firebase starter",
+            description:
+              "Next.js starter template with Styled-Components, Firebase, Next-SEO"
+          }}
+        />
         <h1>
           RMS Static Website Template
           <br /> w/Server Side Rendering
