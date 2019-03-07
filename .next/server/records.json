@@ -18,7 +18,8 @@
       "external \"next/app\"": 14,
       "multi node_modules/next/dist/pages/_error.js": 15,
       "node_modules/next/dist/pages/_error.js": 16,
-      "external \"next/error\"": 17
+      "external \"next/error\"": 17,
+      "external \"next-seo\"": 18
     },
     "usedIds": {
       "0": 0,
@@ -38,7 +39,8 @@
       "14": 14,
       "15": 15,
       "16": 16,
-      "17": 17
+      "17": 17,
+      "18": 18
     }
   },
   "chunks": {
@@ -52,15 +54,20 @@
       "static\\elA2fhnLIByicUOfgjgXL\\pages\\about.js": 6,
       "static\\elA2fhnLIByicUOfgjgXL\\pages\\index.js": 7,
       "static\\elA2fhnLIByicUOfgjgXL\\pages\\_app.js": 8,
-      "static\\elA2fhnLIByicUOfgjgXL\\pages\\_error.js": 9
+      "static\\elA2fhnLIByicUOfgjgXL\\pages\\_error.js": 9,
+      "static\\gXF9OsHQeCg8RIBdIftXh\\pages\\_document.js": 0,
+      "static\\gXF9OsHQeCg8RIBdIftXh\\pages\\about.js": 1,
+      "static\\gXF9OsHQeCg8RIBdIftXh\\pages\\index.js": 2,
+      "static\\gXF9OsHQeCg8RIBdIftXh\\pages\\_app.js": 3,
+      "static\\gXF9OsHQeCg8RIBdIftXh\\pages\\_error.js": 4
     },
     "bySource": {},
     "usedIds": [
-      5,
-      6,
-      7,
-      8,
-      9
+      0,
+      1,
+      2,
+      3,
+      4
     ]
   }
 }

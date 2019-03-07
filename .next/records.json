@@ -235,7 +235,30 @@
       "node_modules/next/dist/pages/_error.js": 231,
       "node_modules/next/error.js": 232,
       "node_modules/next/dist/lib/error.js": 233,
-      "node_modules/http-status/lib/index.js": 234
+      "node_modules/http-status/lib/index.js": 234,
+      "node_modules/next-seo/dist/utils/markup.js": 235,
+      "node_modules/react-is/index.js": 236,
+      "node_modules/stylis/stylis.min.js": 237,
+      "node_modules/memoize-one/dist/memoize-one.esm.js": 238,
+      "node_modules/styled-components/dist/styled-components.browser.esm.js": 239,
+      "node_modules/stylis-rule-sheet/index.js": 240,
+      "node_modules/@emotion/unitless/dist/unitless.browser.esm.js": 241,
+      "node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js c36100413eced87d96204e7828ecfe4a": 242,
+      "node_modules/next-seo/dist/index.js": 243,
+      "node_modules/next-seo/dist/meta/defaultSEO.js": 244,
+      "node_modules/next-seo/dist/meta/buildTags.js": 245,
+      "node_modules/next-seo/dist/jsonld/article.js": 246,
+      "node_modules/next-seo/dist/jsonld/breadcrumb.js": 247,
+      "node_modules/next-seo/dist/jsonld/blog.js": 248,
+      "node_modules/next-seo/dist/jsonld/course.js": 249,
+      "node_modules/next-seo/dist/jsonld/localBusiness.js": 250,
+      "node_modules/next-seo/dist/jsonld/logo.js": 251,
+      "node_modules/next-seo/dist/jsonld/product.js": 252,
+      "node_modules/next-seo/dist/jsonld/socialProfile.js": 253,
+      "node_modules/next-seo/dist/jsonld/corporateContact.js": 254,
+      "node_modules/process/browser.js": 255,
+      "node_modules/webpack/buildin/harmony-module.js": 256,
+      "node_modules/react-is/cjs/react-is.production.min.js": 257
     },
     "usedIds": {
       "0": 0,
@@ -472,7 +495,30 @@
       "231": 231,
       "232": 232,
       "233": 233,
-      "234": 234
+      "234": 234,
+      "235": 235,
+      "236": 236,
+      "237": 237,
+      "238": 238,
+      "239": 239,
+      "240": 240,
+      "241": 241,
+      "242": 242,
+      "243": 243,
+      "244": 244,
+      "245": 245,
+      "246": 246,
+      "247": 247,
+      "248": 248,
+      "249": 249,
+      "250": 250,
+      "251": 251,
+      "252": 252,
+      "253": 253,
+      "254": 254,
+      "255": 255,
+      "256": 256,
+      "257": 257
     }
   },
   "chunks": {
@@ -487,17 +533,21 @@
       "static\\elA2fhnLIByicUOfgjgXL\\pages\\about.js": 7,
       "static\\elA2fhnLIByicUOfgjgXL\\pages\\index.js": 8,
       "static\\elA2fhnLIByicUOfgjgXL\\pages\\_app.js": 9,
-      "static\\elA2fhnLIByicUOfgjgXL\\pages\\_error.js": 10
+      "static\\elA2fhnLIByicUOfgjgXL\\pages\\_error.js": 10,
+      "static\\gXF9OsHQeCg8RIBdIftXh\\pages\\about.js": 3,
+      "static\\gXF9OsHQeCg8RIBdIftXh\\pages\\index.js": 4,
+      "static\\gXF9OsHQeCg8RIBdIftXh\\pages\\_app.js": 5,
+      "static\\gXF9OsHQeCg8RIBdIftXh\\pages\\_error.js": 6
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      10,
       2,
-      7,
-      8,
-      9
+      3,
+      4,
+      5,
+      6
     ]
   }
 }
