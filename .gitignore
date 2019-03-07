@@ -1,4 +1,6 @@
 /node_modules
 /out
 
-.env
+.env-config.js
+
+Firebase.js
