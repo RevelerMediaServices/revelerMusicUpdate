@@ -11,6 +11,6 @@ module.exports = optimizedImages(
         "/about": { page: "/about" }
       };
     },
-    assetPrefix: !debug ? "/rmsWebTemplateSRS/" : ""
+    assetPrefix: !debug ? "/revelerMusicUpdate/" : ""
   })
 );

@@ -3,7 +3,19 @@ import Navbar from "./Navbar";
 import styled from "styled-components";
 import NextSeo from "next-seo";
 
-const LayoutDiv = styled.div``;
+import imgBG from "../static/images/landingPage.jpg";
+import imgMobileBG from "../static/images/mobileLandingPage.jpg";
+
+const LayoutDiv = styled.div`
+  height: 100vh;
+  background-image: url(${imgBG});
+  background-size: 100% 100%;
+
+  @media screen and (max-width: 700px) {
+    background-image: url(${imgMobileBG});
+    background-size: 100% 100%;
+  }
+`;
 
 function Layout(props) {
   return (
