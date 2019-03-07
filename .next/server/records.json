@@ -1,0 +1,61 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"styled-components\"": 1,
+      "external \"next-seo\"": 2,
+      "external \"next/link\"": 3,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Layout.js c1c99d7aafdbacb89007a29182b63b5d": 4,
+      "external \"next/document\"": 5,
+      "multi ./pages/_document.js": 6,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_document.js": 7,
+      "multi ./pages/about.js": 8,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/about.js": 9,
+      "multi ./pages/index.js": 10,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js": 11,
+      "multi node_modules/next/dist/pages/_app.js": 12,
+      "node_modules/next/dist/pages/_app.js": 13,
+      "external \"next/app\"": 14,
+      "multi node_modules/next/dist/pages/_error.js": 15,
+      "node_modules/next/dist/pages/_error.js": 16,
+      "external \"next/error\"": 17
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static\\6LF5341teictB~FYuLFdD\\pages\\_document.js": 0,
+      "static\\6LF5341teictB~FYuLFdD\\pages\\about.js": 1,
+      "static\\6LF5341teictB~FYuLFdD\\pages\\index.js": 2,
+      "static\\6LF5341teictB~FYuLFdD\\pages\\_app.js": 3,
+      "static\\6LF5341teictB~FYuLFdD\\pages\\_error.js": 4
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}
