@@ -15,10 +15,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-seo */ "./node_modules/next-seo/dist/index.js");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _static_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/landingPage.jpg */ "./static/landingPage.jpg");
-/* harmony import */ var _static_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _static_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/mobileLandingPage.jpg */ "./static/mobileLandingPage.jpg");
-/* harmony import */ var _static_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/images/landingPage.jpg */ "./static/images/landingPage.jpg");
+/* harmony import */ var _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/images/mobileLandingPage.jpg */ "./static/images/mobileLandingPage.jpg");
+/* harmony import */ var _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\Client Work\\websiteUpdateRevelerMusic\\rmsWebTemplateSRS\\components\\Layout.js";
 
 
@@ -29,7 +29,7 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 var LayoutDiv = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "Layout__LayoutDiv",
   componentId: "sc-1pf2tfi-0"
-})(["height:100vh;background-image:url(", ");background-size:100% 100%;@media screen and (max-width:700px){background-image:url(", ");background-size:100% 100%;}"], _static_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4___default.a, _static_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default.a);
+})(["height:100vh;background-image:url(", ");background-size:100% 100%;@media screen and (max-width:700px){background-image:url(", ");background-size:100% 100%;}"], _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4___default.a, _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default.a);
 
 function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LayoutDiv, {
@@ -13957,14 +13957,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-seo */ "./node_modules/next-seo/dist/index.js");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _static_instagramLogo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/instagramLogo.png */ "./static/instagramLogo.png");
-/* harmony import */ var _static_instagramLogo_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_instagramLogo_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _static_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/RevelerLogoWhiteShadow.png */ "./static/RevelerLogoWhiteShadow.png");
-/* harmony import */ var _static_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _static_421CDLogo_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/421CDLogo.png */ "./static/421CDLogo.png");
-/* harmony import */ var _static_421CDLogo_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_421CDLogo_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _static_J_Heather_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/J&Heather.png */ "./static/J&Heather.png");
-/* harmony import */ var _static_J_Heather_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_J_Heather_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _static_images_instagramLogo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/images/instagramLogo.png */ "./static/images/instagramLogo.png");
+/* harmony import */ var _static_images_instagramLogo_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_images_instagramLogo_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/images/RevelerLogoWhiteShadow.png */ "./static/images/RevelerLogoWhiteShadow.png");
+/* harmony import */ var _static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _static_images_421CDLogo_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/images/421CDLogo.png */ "./static/images/421CDLogo.png");
+/* harmony import */ var _static_images_421CDLogo_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_images_421CDLogo_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _static_images_J_Heather_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/images/J&Heather.png */ "./static/images/J&Heather.png");
+/* harmony import */ var _static_images_J_Heather_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_images_J_Heather_png__WEBPACK_IMPORTED_MODULE_7__);
 var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\Client Work\\websiteUpdateRevelerMusic\\rmsWebTemplateSRS\\pages\\index.js";
 
 
@@ -14030,7 +14030,7 @@ function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _static_instagramLogo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    src: _static_images_instagramLogo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
     alt: "Instagram Logo",
     __source: {
       fileName: _jsxFileName,
@@ -14058,7 +14058,7 @@ function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _static_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+    src: _static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     alt: "Reveler Music Logo",
     __source: {
       fileName: _jsxFileName,
@@ -14073,7 +14073,7 @@ function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _static_J_Heather_png__WEBPACK_IMPORTED_MODULE_7___default.a,
+    src: _static_images_J_Heather_png__WEBPACK_IMPORTED_MODULE_7___default.a,
     alt: "Reveler Music Logo",
     __source: {
       fileName: _jsxFileName,
@@ -14088,7 +14088,7 @@ function Index() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _static_421CDLogo_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+    src: _static_images_421CDLogo_png__WEBPACK_IMPORTED_MODULE_6___default.a,
     alt: "Reveler Music Logo",
     __source: {
       fileName: _jsxFileName,
@@ -14134,10 +14134,10 @@ function Index() {
 
 /***/ }),
 
-/***/ "./static/421CDLogo.png":
-/*!******************************!*\
-  !*** ./static/421CDLogo.png ***!
-  \******************************/
+/***/ "./static/images/421CDLogo.png":
+/*!*************************************!*\
+  !*** ./static/images/421CDLogo.png ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14145,10 +14145,10 @@ module.exports = "/_next/static/images/421CDLogo-2a377cf4afbe19c72180457651841f8
 
 /***/ }),
 
-/***/ "./static/J&Heather.png":
-/*!******************************!*\
-  !*** ./static/J&Heather.png ***!
-  \******************************/
+/***/ "./static/images/J&Heather.png":
+/*!*************************************!*\
+  !*** ./static/images/J&Heather.png ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14156,10 +14156,10 @@ module.exports = "/_next/static/images/J&Heather-c1a7acfdc56123819f7133a9163eb2c
 
 /***/ }),
 
-/***/ "./static/RevelerLogoWhiteShadow.png":
-/*!*******************************************!*\
-  !*** ./static/RevelerLogoWhiteShadow.png ***!
-  \*******************************************/
+/***/ "./static/images/RevelerLogoWhiteShadow.png":
+/*!**************************************************!*\
+  !*** ./static/images/RevelerLogoWhiteShadow.png ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14167,10 +14167,10 @@ module.exports = "/_next/static/images/RevelerLogoWhiteShadow-8bbba9ab68dbc8fc11
 
 /***/ }),
 
-/***/ "./static/instagramLogo.png":
-/*!**********************************!*\
-  !*** ./static/instagramLogo.png ***!
-  \**********************************/
+/***/ "./static/images/instagramLogo.png":
+/*!*****************************************!*\
+  !*** ./static/images/instagramLogo.png ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14178,10 +14178,10 @@ module.exports = "/_next/static/images/instagramLogo-71645cde79780e06e028902cd62
 
 /***/ }),
 
-/***/ "./static/landingPage.jpg":
-/*!********************************!*\
-  !*** ./static/landingPage.jpg ***!
-  \********************************/
+/***/ "./static/images/landingPage.jpg":
+/*!***************************************!*\
+  !*** ./static/images/landingPage.jpg ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14189,10 +14189,10 @@ module.exports = "/_next/static/images/landingPage-31f2624e1c1faa7bfb0ee2a889b28
 
 /***/ }),
 
-/***/ "./static/mobileLandingPage.jpg":
-/*!**************************************!*\
-  !*** ./static/mobileLandingPage.jpg ***!
-  \**************************************/
+/***/ "./static/images/mobileLandingPage.jpg":
+/*!*********************************************!*\
+  !*** ./static/images/mobileLandingPage.jpg ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
