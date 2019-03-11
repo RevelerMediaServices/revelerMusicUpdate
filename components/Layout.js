@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import RMNavbar from "./RMNavbar";
 
 import styled from "styled-components";
 import NextSeo from "next-seo";
@@ -28,8 +28,8 @@ function Layout(props) {
         }}
       />
       <div>
-        <Navbar />
-        <div className="container">{props.children}</div>
+        <RMNavbar />
+        <div>{props.children}</div>
       </div>
     </LayoutDiv>
   );

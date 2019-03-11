@@ -8,7 +8,9 @@ module.exports = optimizedImages(
     exportPathMap: function() {
       return {
         "/": { page: "/" },
-        "/about": { page: "/about" }
+        "/about": { page: "/about" },
+        "/contactInfo": { page: "/contactInfo" },
+        "/services": { page: "/services" }
       };
     },
     assetPrefix: !debug ? "/revelerMusicUpdate/" : ""
