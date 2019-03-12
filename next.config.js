@@ -10,6 +10,7 @@ module.exports = optimizedImages(
         "/": { page: "/" },
         "/about": { page: "/about" },
         "/contactInfo": { page: "/contactInfo" },
+        "/revelerProcess": { page: "/revelerProcess" },
         "/services": { page: "/services" }
       };
     },

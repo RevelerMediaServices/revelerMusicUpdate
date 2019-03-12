@@ -45,6 +45,11 @@ function RMNavbar() {
             </NavLink>
           </NavItem>
           <NavItem>
+            <NavLink href={process.env.BACKEND_URL + "/revelerProcess"}>
+              Reveler Process
+            </NavLink>
+          </NavItem>
+          <NavItem>
             <NavLink href={process.env.BACKEND_URL + "/services"}>
               Services
             </NavLink>

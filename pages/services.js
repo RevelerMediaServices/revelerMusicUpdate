@@ -3,57 +3,74 @@ import Layout from "../components/Layout";
 import styled from "styled-components";
 import NextSeo from "next-seo";
 
-import imgChoseService from "../static/images/multimedia.png";
-import imgVisualize from "../static/images/view.png";
-import imgImplement from "../static/images/implement.png";
-import imgPartyDown from "../static/images/toast.png";
+import { Row, Col, Card, CardBody, CardTitle, CardText } from "reactstrap";
 
-import {
-  Row,
-  Col,
-  Card,
-  CardBody,
-  CardImg,
-  CardTitle,
-  CardSubtitle,
-  CardText
-} from "reactstrap";
+import imgLiveMusic from "../static/images/sliders.png";
+import imgOpenMic from "../static/images/guitar-player.png";
+import imgDJ from "../static/images/dj.png";
+import imgKaroke from "../static/images/singer.png";
 
 const ServicesDiv = styled.div`
-  min-height: 90vh;
-  color: white;
-  text-align: justify;
-  padding: 1vw;
+  min-height: 80vh;
+  padding: 2vw;
 
-  img {
-    width: 10vw;
-    height: auto;
+  .colStyle {
+    text-align: center;
+    color: white;
 
-    margin-left: auto;
-    margin-right: auto;
-  }
+    img {
+      width: 5vw;
+    }
 
-  .col {
+    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+      padding-top: 2vh;
+
+      img {
+        width: 10vw;
+      }
+    }
+
+    @media only screen and (max-width: 700px) {
+      padding-top: 2vh;
+
+      img {
+        width: 23vw;
+      }
+    }
   }
 
   .card {
-    -webkit-box-shadow: 0 0 1vw rgba(154, 154, 154, 1);
-    -moz-box-shadow: 0 0 1vw rgba(154, 154, 154, 1);
-    box-shadow: 0 0 1vw rgba(154, 154, 154, 1);
-    padding: 1vw;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
   }
 
   .card-title {
-    text-align: center;
-  }
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5vw;
+    font-weight: 800;
+    font-variant: small-caps;
 
-  .card-subtitle {
-    text-align: center;
-    padding-bottom: 3vh;
+    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+      font-size: 5vw;
+    }
+
+    @media only screen and (max-width: 700px) {
+      font-size: 10vw;
+    }
   }
 
   .card-text {
-    padding: 1vw;
+    font-family: "PT Serif", serif;
+    font-size: 0.8vw;
+    font-weight: 600;
+
+    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+      font-size: 1.8vw;
+    }
+
+    @media only screen and (max-width: 700px) {
+      font-size: 3.5vw;
+    }
   }
 `;
 
@@ -68,70 +85,69 @@ function Services() {
               "Next.js starter template with Styled-Components, Firebase, Next-SEO"
           }}
         />
-        <div className="container">
-          <h1>The Reveler Process</h1>
-          <p>
-            Reveler's goal is to provide an amazing experience at a fair price.
-            In order to guarantee the perfect experience within the budget,
-            Reveler has a 4 step Experience Guarantee Process!
-          </p>
-          <Row>
-            <Col>
-              <Card className="bg-dark">
-                <CardTitle className="">Together</CardTitle>
-                <CardSubtitle className="">Choose a Service</CardSubtitle>
-                <CardImg className="" top width="100%" src={imgChoseService} />
-                <CardText className="">
-                  Every event is unique in its specialness. If a live band is
-                  the best option for your event, Reveler has those
-                  capabilities. Maybe a DJ or Karaoke makes more sense. Lets
-                  Discuss!
+        <h1>Services Page</h1>
+
+        <Row>
+          <Col className="colStyle" xl="3" md="6" xs="12">
+            <Card body outline color="secondary">
+              <div>
+                <img src={imgLiveMusic} alt="Live Music icon" />
+              </div>
+              <CardBody>
+                <CardTitle>Live Music</CardTitle>
+                <CardText className="justify-content-center">
+                  With music brands to cover any event or occasion, Reveler
+                  Music offers Live Music services for Family Friendly or 21+
+                  occasions.
                 </CardText>
-              </Card>
-            </Col>
-            <Col>
-              <Card className="bg-dark">
-                <CardTitle className="">Together</CardTitle>
-                <CardSubtitle className="">
-                  Visualize the Experience
-                </CardSubtitle>
-                <CardImg className="" top width="100%" src={imgVisualize} />
-                <CardText className="">
-                  Every event is unique in its specialness. If a live band is
-                  the best option for your event, Reveler has those
-                  capabilities. Maybe a DJ or Karaoke makes more sense. Lets
-                  Discuss!
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="colStyle" xl="3" md="6" xs="12">
+            <Card body outline color="secondary">
+              <div>
+                <img src={imgOpenMic} alt="Open Mic icon" />
+              </div>
+              <CardBody>
+                <CardTitle>Open Mics</CardTitle>
+                <CardText className="justify-content-center">
+                  With professional modern sound equipment, Reveler Music offers
+                  talented Open Mic services for Music or Comedy events.
                 </CardText>
-              </Card>
-            </Col>
-            <Col>
-              <Card className="bg-dark">
-                <CardTitle className="">Our Job</CardTitle>
-                <CardSubtitle className="">Implement the Plan</CardSubtitle>
-                <CardImg className="" top width="100%" src={imgImplement} />
-                <CardText className="">
-                  Every event is unique in its specialness. If a live band is
-                  the best option for your event, Reveler has those
-                  capabilities. Maybe a DJ or Karaoke makes more sense. Lets
-                  Discuss!
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="colStyle" xl="3" md="6" xs="12">
+            <Card body outline color="secondary">
+              <div>
+                <img src={imgKaroke} alt="mixer icon" />
+              </div>
+              <CardBody>
+                <CardTitle>Karaoke</CardTitle>
+                <CardText className="justify-content-center">
+                  With 77,000+ songs of all skill level, Reveler Music offers
+                  entertaining and fun karaoke services for occasion, event or
+                  genre.
                 </CardText>
-              </Card>
-            </Col>
-            <Col>
-              <Card className="bg-dark">
-                <CardTitle className="">Your Job</CardTitle>
-                <CardSubtitle className="">Party Down</CardSubtitle>
-                <CardImg className="" top width="100%" src={imgPartyDown} />
-                <CardText className="">
-                  Every event is unique in its specialness. If a live band is
-                  the best option for your event, Reveler has those
-                  capabilities. Maybe a DJ or Karaoke makes more sense. Lets
-                  Discuss!
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="colStyle" xl="3" md="6" xs="12">
+            <Card body outline color="secondary">
+              <div>
+                <img src={imgDJ} alt="mixer icon" />
+              </div>
+              <CardBody>
+                <CardTitle>DJ</CardTitle>
+                <CardText className="justify-content-center">
+                  With more than 30 years of music experience, Reveler Music
+                  offers spectacular dynamic DJ services to create the perfect
+                  experience.
                 </CardText>
-              </Card>
-            </Col>
-          </Row>
-        </div>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
       </ServicesDiv>
     </Layout>
   );

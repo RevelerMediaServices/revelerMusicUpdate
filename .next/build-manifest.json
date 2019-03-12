@@ -11,23 +11,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
+    "/revelerProcess": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
     "/services": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/contactInfo": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

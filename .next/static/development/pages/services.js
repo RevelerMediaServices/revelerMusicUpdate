@@ -180,10 +180,23 @@ function RMNavbar() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/services",
+    href: "/revelerProcess",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
+    },
+    __self: this
+  }, "Reveler Process")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
+    href: "/services",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
     },
     __self: this
   }, "Services")))));
@@ -27673,15 +27686,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-seo */ "./node_modules/next-seo/dist/index.js");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/images/multimedia.png */ "./static/images/multimedia.png");
-/* harmony import */ var _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _static_images_view_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/images/view.png */ "./static/images/view.png");
-/* harmony import */ var _static_images_view_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_view_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _static_images_implement_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/images/implement.png */ "./static/images/implement.png");
-/* harmony import */ var _static_images_implement_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_images_implement_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _static_images_toast_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/images/toast.png */ "./static/images/toast.png");
-/* harmony import */ var _static_images_toast_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_images_toast_png__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _static_images_sliders_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/images/sliders.png */ "./static/images/sliders.png");
+/* harmony import */ var _static_images_sliders_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_sliders_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _static_images_guitar_player_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/images/guitar-player.png */ "./static/images/guitar-player.png");
+/* harmony import */ var _static_images_guitar_player_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_images_guitar_player_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _static_images_dj_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/images/dj.png */ "./static/images/dj.png");
+/* harmony import */ var _static_images_dj_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_images_dj_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _static_images_singer_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../static/images/singer.png */ "./static/images/singer.png");
+/* harmony import */ var _static_images_singer_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_images_singer_png__WEBPACK_IMPORTED_MODULE_8__);
 var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\Client Work\\websiteUpdateRevelerMusic\\rmUpdate\\pages\\services.js";
 
 
@@ -27695,19 +27708,19 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 var ServicesDiv = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "services__ServicesDiv",
   componentId: "sc-5x131j-0"
-})(["min-height:90vh;color:white;text-align:justify;padding:1vw;img{width:10vw;height:auto;margin-left:auto;margin-right:auto;}.col{}.card{-webkit-box-shadow:0 0 1vw rgba(154,154,154,1);-moz-box-shadow:0 0 1vw rgba(154,154,154,1);box-shadow:0 0 1vw rgba(154,154,154,1);padding:1vw;}.card-title{text-align:center;}.card-subtitle{text-align:center;padding-bottom:3vh;}.card-text{padding:1vw;}"]);
+})(["min-height:80vh;padding:2vw;.colStyle{text-align:center;color:white;img{width:5vw;}@media only screen and (max-width:1200px) and (min-width:700px){padding-top:2vh;img{width:10vw;}}@media only screen and (max-width:700px){padding-top:2vh;img{width:23vw;}}}.card{background:rgba(0,0,0,0.8);height:100%;}.card-title{font-family:\"Montserrat\",sans-serif;font-size:2.5vw;font-weight:800;font-variant:small-caps;@media only screen and (max-width:1200px) and (min-width:700px){font-size:5vw;}@media only screen and (max-width:700px){font-size:10vw;}}.card-text{font-family:\"PT Serif\",serif;font-size:0.8vw;font-weight:600;@media only screen and (max-width:1200px) and (min-width:700px){font-size:1.8vw;}@media only screen and (max-width:700px){font-size:3.5vw;}}"]);
 
 function Services() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 79
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ServicesDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -27717,211 +27730,230 @@ function Services() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "The Reveler Process"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }, "Reveler's goal is to provide an amazing experience at a fair price. In order to guarantee the perfect experience within the budget, Reveler has a 4 step Experience Guarantee Process!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
-    className: "bg-dark",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
-    className: "",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 81
     },
     __self: this
-  }, "Together"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
-    className: "",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 88
     },
     __self: this
-  }, "Choose a Service"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
-    className: "",
-    top: true,
-    width: "100%",
-    src: _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+  }, "Services Page"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 90
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
-    className: "",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    className: "colStyle",
+    xl: "3",
+    md: "6",
+    xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 91
     },
     __self: this
-  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense. Lets Discuss!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+    body: true,
+    outline: true,
+    color: "secondary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 92
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
-    className: "bg-dark",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 93
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
-    className: "",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _static_images_sliders_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+    alt: "Live Music icon",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 94
     },
     __self: this
-  }, "Together"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
-    className: "",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 96
     },
     __self: this
-  }, "Visualize the Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
-    className: "",
-    top: true,
-    width: "100%",
-    src: _static_images_view_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, "Live Music"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
+    className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 98
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
-    className: "",
+  }, "With music brands to cover any event or occasion, Reveler Music offers Live Music services for Family Friendly or 21+ occasions.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    className: "colStyle",
+    xl: "3",
+    md: "6",
+    xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 106
     },
     __self: this
-  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense. Lets Discuss!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+    body: true,
+    outline: true,
+    color: "secondary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 107
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
-    className: "bg-dark",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 108
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
-    className: "",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _static_images_guitar_player_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+    alt: "Open Mic icon",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 109
     },
     __self: this
-  }, "Our Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
-    className: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110
-    },
-    __self: this
-  }, "Implement the Plan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
-    className: "",
-    top: true,
-    width: "100%",
-    src: _static_images_implement_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 111
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
-    className: "",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 112
     },
     __self: this
-  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense. Lets Discuss!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, "Open Mics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
+    className: "justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }, "With professional modern sound equipment, Reveler Music offers talented Open Mic services for Music or Comedy events.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    className: "colStyle",
+    xl: "3",
+    md: "6",
+    xs: "12",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 120
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
-    className: "bg-dark",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+    body: true,
+    outline: true,
+    color: "secondary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 121
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
-    className: "",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 122
     },
     __self: this
-  }, "Your Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
-    className: "",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _static_images_singer_png__WEBPACK_IMPORTED_MODULE_8___default.a,
+    alt: "mixer icon",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 123
     },
     __self: this
-  }, "Party Down"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
-    className: "",
-    top: true,
-    width: "100%",
-    src: _static_images_toast_png__WEBPACK_IMPORTED_MODULE_7___default.a,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 124
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
-    className: "",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 125
     },
     __self: this
-  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense. Lets Discuss!")))))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 126
+    },
+    __self: this
+  }, "Karaoke"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
+    className: "justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 127
+    },
+    __self: this
+  }, "With 77,000+ songs of all skill level, Reveler Music offers entertaining and fun karaoke services for occasion, event or genre.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    className: "colStyle",
+    xl: "3",
+    md: "6",
+    xs: "12",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+    body: true,
+    outline: true,
+    color: "secondary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 137
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _static_images_dj_png__WEBPACK_IMPORTED_MODULE_7___default.a,
+    alt: "mixer icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141
+    },
+    __self: this
+  }, "DJ"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
+    className: "justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: this
+  }, "With more than 30 years of music experience, Reveler Music offers spectacular dynamic DJ services to create the perfect experience.")))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Services);
@@ -27947,14 +27979,25 @@ function Services() {
 
 /***/ }),
 
-/***/ "./static/images/implement.png":
-/*!*************************************!*\
-  !*** ./static/images/implement.png ***!
-  \*************************************/
+/***/ "./static/images/dj.png":
+/*!******************************!*\
+  !*** ./static/images/dj.png ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAC/VBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+G1NxwAAAA/nRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ojs8PT4/QEFCQ0RFRkdISUpLTE1OT1BR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"
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
+/***/ "./static/images/guitar-player.png":
+/*!*****************************************!*\
+  !*** ./static/images/guitar-player.png ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAADAFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8HPQsIAAAA/3RSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ojs8PT4/QEFCQ0RFRkdISUpLTE1O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"
 
 /***/ }),
 
@@ -27980,36 +28023,25 @@ module.exports = "/_next/static/images/mobileLandingPage-d54ad7317266d8b78da0a52
 
 /***/ }),
 
-/***/ "./static/images/multimedia.png":
-/*!**************************************!*\
-  !*** ./static/images/multimedia.png ***!
-  \**************************************/
+/***/ "./static/images/singer.png":
+/*!**********************************!*\
+  !*** ./static/images/singer.png ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,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"
+module.exports = "data:image/png;base64,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"
 
 /***/ }),
 
-/***/ "./static/images/toast.png":
-/*!*********************************!*\
-  !*** ./static/images/toast.png ***!
-  \*********************************/
+/***/ "./static/images/sliders.png":
+/*!***********************************!*\
+  !*** ./static/images/sliders.png ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/png;base64,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"
-
-/***/ }),
-
-/***/ "./static/images/view.png":
-/*!********************************!*\
-  !*** ./static/images/view.png ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/view-dda43d6267cd2c2c6055415157caff9d.png";
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABmvDolAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAFVJREFUaN7t1zESAEEEBMD5/6dtcBdswH5Ai1AdKkWSpKoqmTIAAAAAaIoAwFfUHwAAAADwAu4oYDorgK2gXxsAMMwRsB7cPWAX6NYGAACAPwsAgBEcqldzREzkKLMAAAAASUVORK5CYII="
 
 /***/ }),
 

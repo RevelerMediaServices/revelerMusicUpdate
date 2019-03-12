@@ -1,306 +1,4 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = require('../../../ssr-module-cache.js');
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		var threw = true;
-/******/ 		try {
-/******/ 			modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 			threw = false;
-/******/ 		} finally {
-/******/ 			if(threw) delete installedModules[moduleId];
-/******/ 		}
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// create a fake namespace object
-/******/ 	// mode & 1: value is a module id, require it
-/******/ 	// mode & 2: merge all properties of value into the ns
-/******/ 	// mode & 4: return value when already ns object
-/******/ 	// mode & 8|1: behave like require
-/******/ 	__webpack_require__.t = function(value, mode) {
-/******/ 		if(mode & 1) value = __webpack_require__(value);
-/******/ 		if(mode & 8) return value;
-/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 		var ns = Object.create(null);
-/******/ 		__webpack_require__.r(ns);
-/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
-/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
-/******/ 		return ns;
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ "./components/Layout.js":
-/*!******************************!*\
-  !*** ./components/Layout.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _RMNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./RMNavbar */ "./components/RMNavbar.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-seo */ "next-seo");
-/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/images/landingPage.jpg */ "./static/images/landingPage.jpg");
-/* harmony import */ var _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/images/mobileLandingPage.jpg */ "./static/images/mobileLandingPage.jpg");
-/* harmony import */ var _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\Client Work\\websiteUpdateRevelerMusic\\rmUpdate\\components\\Layout.js";
-
-
-
-
-
-
-var LayoutDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
-  displayName: "Layout__LayoutDiv",
-  componentId: "sc-1pf2tfi-0"
-})(["height:100vh;background-image:url(", ");background-size:100% 100%;@media screen and (max-width:700px){background-image:url(", ");background-size:100% 100%;}"], _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_4___default.a, _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default.a);
-
-function Layout(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LayoutDiv, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    config: {
-      title: "Reveler Media Services Next.js/Firebase starter",
-      description: "Next.js starter template with Styled-Components, Firebase, Next-SEO"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RMNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, props.children)));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Layout);
-
-/***/ }),
-
-/***/ "./components/RMNavbar.js":
-/*!********************************!*\
-  !*** ./components/RMNavbar.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "reactstrap");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\Client Work\\websiteUpdateRevelerMusic\\rmUpdate\\components\\RMNavbar.js";
-
-
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
-
-function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-
-
-var RMNavbarDiv = styled_components__WEBPACK_IMPORTED_MODULE_3___default.a.div.withConfig({
-  displayName: "RMNavbar__RMNavbarDiv",
-  componentId: "i6xy3e-0"
-})(["height:10vh;padding:0;margin:0;background:transparent;color:white;a{color:white;}"]);
-
-function RMNavbar() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
-      _useState2 = _slicedToArray(_useState, 2),
-      toggle = _useState2[0],
-      setToggle = _useState2[1];
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RMNavbarDiv, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
-    className: "justify-content-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/",
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/contactInfo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/revelerProcess",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "Reveler Process")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/services",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, "Services")))));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (RMNavbar);
-
-/***/ }),
+webpackHotUpdate("static\\development\\pages\\services.js",{
 
 /***/ "./pages/services.js":
 /*!***************************!*\
@@ -311,15 +9,13 @@ function RMNavbar() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-seo */ "next-seo");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-seo */ "./node_modules/next-seo/dist/index.js");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "reactstrap");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 /* harmony import */ var _static_images_sliders_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/images/sliders.png */ "./static/images/sliders.png");
 /* harmony import */ var _static_images_sliders_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_sliders_png__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _static_images_guitar_player_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/images/guitar-player.png */ "./static/images/guitar-player.png");
@@ -338,22 +34,22 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 
 
 
-var ServicesDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
+var ServicesDiv = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "services__ServicesDiv",
   componentId: "sc-5x131j-0"
-})(["min-height:80vh;padding:2vw;.colStyle{text-align:center;color:white;img{width:5vw;}@media only screen and (max-width:1200px) and (min-width:700px){padding-top:2vh;img{width:10vw;}}@media only screen and (max-width:700px){padding-top:2vh;img{width:23vw;}}}.card{background:rgba(0,0,0,0.8);height:100%;}.card-title{font-family:\"Montserrat\",sans-serif;font-size:2.5vw;font-weight:800;font-variant:small-caps;@media only screen and (max-width:1200px) and (min-width:700px){font-size:5vw;}@media only screen and (max-width:700px){font-size:10vw;}}.card-text{font-family:\"PT Serif\",serif;font-size:0.8vw;font-weight:600;@media only screen and (max-width:1200px) and (min-width:700px){font-size:1.8vw;}@media only screen and (max-width:700px){font-size:3.5vw;}}"]);
+})(["min-height:15vh;background-image:url(", ");background-size:100% 100%;background-position:center center;background-attachment:fixed;@media only screen and (max-width:700px){background-image:url(", ");}padding:2vw;.colStyle{text-align:center;color:white;img{width:5vw;}@media only screen and (max-width:1200px) and (min-width:700px){padding-top:2vh;img{width:10vw;}}@media only screen and (max-width:700px){padding-top:2vh;img{width:23vw;}}}.card{background:rgba(0,0,0,0.8);height:100%;}.card-title{font-family:\"Montserrat\",sans-serif;font-size:2.5vw;font-weight:800;font-variant:small-caps;@media only screen and (max-width:1200px) and (min-width:700px){font-size:5vw;}@media only screen and (max-width:700px){font-size:10vw;}}.card-text{font-family:\"PT Serif\",serif;font-size:0.8vw;font-weight:600;@media only screen and (max-width:1200px) and (min-width:700px){font-size:1.8vw;}@media only screen and (max-width:700px){font-size:3.5vw;}}"], BGimg, mobileBGimg);
 
 function Services() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ServicesDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -363,19 +59,19 @@ function Services() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 90
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 97
     },
     __self: this
   }, "Services Page"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -385,22 +81,22 @@ function Services() {
     xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 100
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card, {
     body: true,
     outline: true,
     color: "secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 101
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 102
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -408,26 +104,26 @@ function Services() {
     alt: "Live Music icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 103
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardBody, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 105
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardTitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 106
     },
     __self: this
-  }, "Live Music"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
+  }, "Live Music"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardText, {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 107
     },
     __self: this
   }, "With music brands to cover any event or occasion, Reveler Music offers Live Music services for Family Friendly or 21+ occasions.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -437,22 +133,22 @@ function Services() {
     xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 115
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card, {
     body: true,
     outline: true,
     color: "secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 116
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 117
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -460,26 +156,26 @@ function Services() {
     alt: "Open Mic icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 118
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardBody, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 120
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardTitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 121
     },
     __self: this
-  }, "Open Mics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
+  }, "Open Mics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardText, {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 122
     },
     __self: this
   }, "With professional modern sound equipment, Reveler Music offers talented Open Mic services for Music or Comedy events.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -489,22 +185,22 @@ function Services() {
     xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 129
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card, {
     body: true,
     outline: true,
     color: "secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 130
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 131
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -512,26 +208,26 @@ function Services() {
     alt: "mixer icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 132
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardBody, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 134
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardTitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 135
     },
     __self: this
-  }, "Karaoke"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
+  }, "Karaoke"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardText, {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 136
     },
     __self: this
   }, "With 77,000+ songs of all skill level, Reveler Music offers entertaining and fun karaoke services for occasion, event or genre.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -541,22 +237,22 @@ function Services() {
     xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 144
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Card, {
     body: true,
     outline: true,
     color: "secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 145
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 146
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -564,32 +260,51 @@ function Services() {
     alt: "mixer icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 147
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardBody, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 149
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardTitle, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 150
     },
     __self: this
-  }, "DJ"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
+  }, "DJ"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardText, {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 151
     },
     __self: this
   }, "With more than 30 years of music experience, Reveler Music offers spectacular dynamic DJ services to create the perfect experience.")))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Services);
+    (function (Component, route) {
+      if(!Component) return
+      if (false) {}
+      module.hot.accept()
+      Component.__route = route
+
+      if (module.hot.status() === 'idle') return
+
+      var components = next.router.components
+      for (var r in components) {
+        if (!components.hasOwnProperty(r)) continue
+
+        if (components[r].Component.__route === route) {
+          next.router.update(r, Component)
+        }
+      }
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/services")
+  
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
@@ -615,28 +330,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABr
 
 /***/ }),
 
-/***/ "./static/images/landingPage.jpg":
-/*!***************************************!*\
-  !*** ./static/images/landingPage.jpg ***!
-  \***************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/landingPage-31f2624e1c1faa7bfb0ee2a889b285c1.jpg";
-
-/***/ }),
-
-/***/ "./static/images/mobileLandingPage.jpg":
-/*!*********************************************!*\
-  !*** ./static/images/mobileLandingPage.jpg ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/mobileLandingPage-d54ad7317266d8b78da0a529084c9474.jpg";
-
-/***/ }),
-
 /***/ "./static/images/singer.png":
 /*!**********************************!*\
   !*** ./static/images/singer.png ***!
@@ -657,74 +350,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAQAAABp
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABmvDolAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAFVJREFUaN7t1zESAEEEBMD5/6dtcBdswH5Ai1AdKkWSpKoqmTIAAAAAaIoAwFfUHwAAAADwAu4oYDorgK2gXxsAMMwRsB7cPWAX6NYGAACAPwsAgBEcqldzREzkKLMAAAAASUVORK5CYII="
 
-/***/ }),
-
-/***/ 4:
-/*!*********************************!*\
-  !*** multi ./pages/services.js ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./pages/services.js */"./pages/services.js");
-
-
-/***/ }),
-
-/***/ "next-seo":
-/*!***************************!*\
-  !*** external "next-seo" ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next-seo");
-
-/***/ }),
-
-/***/ "next/link":
-/*!****************************!*\
-  !*** external "next/link" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/link");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "reactstrap":
-/*!*****************************!*\
-  !*** external "reactstrap" ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("reactstrap");
-
-/***/ }),
-
-/***/ "styled-components":
-/*!************************************!*\
-  !*** external "styled-components" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-components");
-
 /***/ })
 
-/******/ });
-//# sourceMappingURL=services.js.map
+})
+//# sourceMappingURL=services.js.b150eff3b4ac8993ffe6.hot-update.js.map
