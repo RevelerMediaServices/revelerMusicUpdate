@@ -201,8 +201,8 @@ function (_Document) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+        href: "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css",
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/icon?family=Material+Icons",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46

@@ -1,5 +1,7 @@
 import RMNavbar from "./RMNavbar";
 
+import Footer from "./Footer";
+
 import styled from "styled-components";
 import NextSeo from "next-seo";
 
@@ -27,10 +29,9 @@ function Layout(props) {
             "Next.js starter template with Styled-Components, Firebase, Next-SEO"
         }}
       />
-      <div>
-        <RMNavbar />
-        <div>{props.children}</div>
-      </div>
+      <RMNavbar />
+      <div style={{ height: "83vh" }}>{props.children}</div>
+      <Footer />
     </LayoutDiv>
   );
 }

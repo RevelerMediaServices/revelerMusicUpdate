@@ -44,8 +44,8 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
           />
           <link
+            href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
             rel="stylesheet"
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
         </Head>
         <body style={{ padding: "0", margin: "0" }}>

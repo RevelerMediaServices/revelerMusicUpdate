@@ -19,17 +19,21 @@ const RevelerContactDiv = styled.div`
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
-  box-shadow: 0 0.8vw 0.45vw -0.6vw rgba(255, 255, 255, 0.2),
-    0 0.45vw 0.45vw 0 rgba(255, 255, 255, 0.14),
-    0 0.3vw 1.5vw 0 rgba(255, 255, 255, 0.12);
+
+  -webkit-box-shadow: 0 0 1vw rgba(154, 154, 154, 1);
+  -moz-box-shadow: 0 0 1vw rgba(154, 154, 154, 1);
+  box-shadow: 0 0 1vw rgba(154, 154, 154, 1);
   width: 75vw;
   background-color: black;
   border: solid 0.01vw rgba(0, 0, 100, 1);
 
+  margin: 0;
+  padding: 0;
+
   .contactFormPageHeader {
     color: white;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: "PT Sans", sans-serif;
 
     @media only screen and (max-width: 1200px) and (min-width: 700px) {

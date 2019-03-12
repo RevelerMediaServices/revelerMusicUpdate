@@ -9,12 +9,10 @@ import imgCDLogo from "../static/images/421CDLogo.png";
 import imgJHLogo from "../static/images/J&Heather.png";
 
 const IndexDiv = styled.div`
-  min-height: 90vh;
   color: white;
 
-  @media only screen and (max-width: 700px) {
-    min-height: 85vh;
-  }
+  margin: 0;
+  padding: 0;
 
   #jName {
     font-size: 2.5vw;
@@ -111,7 +109,7 @@ const IndexDiv = styled.div`
     position: absolute;
     font-size: 2vw;
     left: 10%;
-    bottom: 5%;
+    bottom: 8%;
     color: white;
     font-family: "Luckiest Guy", cursive;
 

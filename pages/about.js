@@ -3,7 +3,10 @@ import Layout from "../components/Layout";
 import styled from "styled-components";
 import NextSeo from "next-seo";
 
-const AboutDiv = styled.div``;
+const AboutDiv = styled.div`
+  margin: 0;
+  padding: 0;
+`;
 
 function About() {
   return (

@@ -20,10 +20,10 @@ import {
 } from "reactstrap";
 
 const RevelerProcessDiv = styled.div`
-  min-height: 90vh;
   color: white;
   text-align: justify;
-  padding: 1vw;
+  margin: 0;
+  padding: 0;
 
   img {
     width: 10vw;
