@@ -296,7 +296,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/images/mobileLandingPage.jpg */ "./static/images/mobileLandingPage.jpg");
 /* harmony import */ var _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/images/RevelerLogoWhiteShadow.png */ "./static/images/RevelerLogoWhiteShadow.png");
+/* harmony import */ var _static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_7__);
 var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\Client Work\\websiteUpdateRevelerMusic\\rmUpdate\\components\\Layout.js";
+
 
 
 
@@ -307,13 +310,13 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 var LayoutDiv = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
   displayName: "Layout__LayoutDiv",
   componentId: "sc-1pf2tfi-0"
-})(["height:100vh;background-image:url(", ");background-size:100% 100%;@media screen and (max-width:700px){background-image:url(", ");background-size:100% 100%;}"], _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default.a, _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6___default.a);
+})(["height:100vh;background-image:url(", ");background-size:100% 100%;@media screen and (max-width:700px){background-image:url(", ");background-size:100% 100%;}#imgRMLogoLayout{width:20vw;position:fixed;top:1vh;left:1vw;z-index:9999;}"], _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default.a, _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6___default.a);
 
 function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LayoutDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -323,25 +326,34 @@ function Layout(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 35
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    id: "imgRMLogoLayout",
+    src: _static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_7___default.a,
+    alt: "Reveler Music, LLC Logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RMNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 47
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 48
     },
     __self: this
   }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 49
     },
     __self: this
   }));
@@ -27986,19 +27998,19 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 var RevelerProcessDiv = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "revelerProcess__RevelerProcessDiv",
   componentId: "sc-6llaee-0"
-})(["color:white;text-align:justify;margin:0;padding:0;height:83vh;img{width:10vw;height:auto;margin-left:auto;margin-right:auto;}.col{}.card{-webkit-box-shadow:0 0 1vw rgba(154,154,154,1);-moz-box-shadow:0 0 1vw rgba(154,154,154,1);box-shadow:0 0 1vw rgba(154,154,154,1);padding:1vw;}.card-title{text-align:center;}.card-subtitle{text-align:center;padding-bottom:3vh;}.card-text{padding:1vw;}"]);
+})(["color:white;text-align:justify;margin:0;padding:0;height:83vh;h1{text-align:center;}#pRevelerProcessGoal{margin-left:15vw;margin-right:15vw;}img{width:10vw;height:auto;margin-left:auto;margin-right:auto;}.col{}.card{-webkit-box-shadow:0 0 1vw rgba(154,154,154,1);-moz-box-shadow:0 0 1vw rgba(154,154,154,1);box-shadow:0 0 1vw rgba(154,154,154,1);padding:1vw;}.card-title{text-align:center;}.card-subtitle{text-align:center;padding-bottom:3vh;}.card-text{padding:1vw;}"]);
 
 function RevelerProcess() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RevelerProcessDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -28008,59 +28020,60 @@ function RevelerProcess() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 74
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 81
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 82
     },
     __self: this
   }, "The Reveler Process"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    id: "pRevelerProcessGoal",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 83
     },
     __self: this
   }, "Reveler's goal is to provide an amazing experience at a fair price. In order to guarantee the perfect experience within the budget, Reveler has a 4 step Experience Guarantee Process!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 90
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 91
     },
     __self: this
   }, "Together"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 92
     },
     __self: this
   }, "Let's Discuss!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
@@ -28070,41 +28083,41 @@ function RevelerProcess() {
     src: _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 93
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 94
     },
     __self: this
   }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 101
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 102
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 103
     },
     __self: this
   }, "Together"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 104
     },
     __self: this
   }, "Let's Visualize!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
@@ -28114,41 +28127,41 @@ function RevelerProcess() {
     src: _static_images_view_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 105
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 106
     },
     __self: this
   }, " ", "In establishing your vision of the perfect experience, you and Reveler will walk through and visualize the day or the event. Being prepared is the Reveler Advantage."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 115
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 116
     },
     __self: this
   }, "Our Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 117
     },
     __self: this
   }, "Let's Get To It!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
@@ -28158,41 +28171,41 @@ function RevelerProcess() {
     src: _static_images_implement_png__WEBPACK_IMPORTED_MODULE_6___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 118
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 119
     },
     __self: this
   }, "With more than 30 years of music entertainment experience and of high level customer satisfaction experience , You can leave your focus on enjoying the event. NO EXCUSES!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 126
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 128
     },
     __self: this
   }, "Your Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 129
     },
     __self: this
   }, "Let's Party!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
@@ -28202,17 +28215,17 @@ function RevelerProcess() {
     src: _static_images_toast_png__WEBPACK_IMPORTED_MODULE_7___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 130
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 131
     },
     __self: this
-  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense. Lets Discuss!")))))));
+  }, "You deserve this! You have worked hard each and every day to provide for your family. Now it is time to enjoy the benefits of all your hard work. GET AFTER IT!")))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (RevelerProcess);
@@ -28235,6 +28248,17 @@ function RevelerProcess() {
     })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/revelerProcess")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./static/images/RevelerLogoWhiteShadow.png":
+/*!**************************************************!*\
+  !*** ./static/images/RevelerLogoWhiteShadow.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RevelerLogoWhiteShadow-8bbba9ab68dbc8fc115d3811c703e8f7.png";
 
 /***/ }),
 
@@ -28304,7 +28328,7 @@ module.exports = "/_next/static/images/view-dda43d6267cd2c2c6055415157caff9d.png
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!***************************************!*\
   !*** multi ./pages/revelerProcess.js ***!
   \***************************************/
@@ -28329,5 +28353,5 @@ module.exports = dll_1ad69d3c0c6c675650a5;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js"]]]));;
+},[[5,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=revelerProcess.js.map
