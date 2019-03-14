@@ -30,7 +30,7 @@ function Layout(props) {
         }}
       />
       <RMNavbar />
-      <div style={{ height: "83vh" }}>{props.children}</div>
+      <div>{props.children}</div>
       <Footer />
     </LayoutDiv>
   );

@@ -24,6 +24,7 @@ const RevelerProcessDiv = styled.div`
   text-align: justify;
   margin: 0;
   padding: 0;
+  height: 83vh;
 
   img {
     width: 10vw;
@@ -79,48 +80,44 @@ function RevelerProcess() {
             <Col>
               <Card className="bg-dark">
                 <CardTitle className="">Together</CardTitle>
-                <CardSubtitle className="">Choose a Service</CardSubtitle>
+                <CardSubtitle className="">Let's Discuss!</CardSubtitle>
                 <CardImg className="" top width="100%" src={imgChoseService} />
                 <CardText className="">
                   Every event is unique in its specialness. If a live band is
                   the best option for your event, Reveler has those
-                  capabilities. Maybe a DJ or Karaoke makes more sense. Lets
-                  Discuss!
+                  capabilities. Maybe a DJ or Karaoke makes more sense.
                 </CardText>
               </Card>
             </Col>
             <Col>
               <Card className="bg-dark">
                 <CardTitle className="">Together</CardTitle>
-                <CardSubtitle className="">
-                  Visualize the Experience
-                </CardSubtitle>
+                <CardSubtitle className="">Let's Visualize!</CardSubtitle>
                 <CardImg className="" top width="100%" src={imgVisualize} />
                 <CardText className="">
-                  Every event is unique in its specialness. If a live band is
-                  the best option for your event, Reveler has those
-                  capabilities. Maybe a DJ or Karaoke makes more sense. Lets
-                  Discuss!
+                  {" "}
+                  In establishing your vision of the perfect experience, you and
+                  Reveler will walk through and visualize the day or the event.
+                  Being prepared is the Reveler Advantage.
                 </CardText>
               </Card>
             </Col>
             <Col>
               <Card className="bg-dark">
                 <CardTitle className="">Our Job</CardTitle>
-                <CardSubtitle className="">Implement the Plan</CardSubtitle>
+                <CardSubtitle className="">Let's Get To It!</CardSubtitle>
                 <CardImg className="" top width="100%" src={imgImplement} />
                 <CardText className="">
-                  Every event is unique in its specialness. If a live band is
-                  the best option for your event, Reveler has those
-                  capabilities. Maybe a DJ or Karaoke makes more sense. Lets
-                  Discuss!
+                  With more than 30 years of music entertainment experience and
+                  of high level customer satisfaction experience , You can leave
+                  your focus on enjoying the event. NO EXCUSES!
                 </CardText>
               </Card>
             </Col>
             <Col>
               <Card className="bg-dark">
                 <CardTitle className="">Your Job</CardTitle>
-                <CardSubtitle className="">Party Down</CardSubtitle>
+                <CardSubtitle className="">Let's Party!</CardSubtitle>
                 <CardImg className="" top width="100%" src={imgPartyDown} />
                 <CardText className="">
                   Every event is unique in its specialness. If a live band is

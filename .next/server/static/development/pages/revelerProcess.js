@@ -428,9 +428,6 @@ function Layout(props) {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      height: "83vh"
-    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -623,19 +620,19 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 var RevelerProcessDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
   displayName: "revelerProcess__RevelerProcessDiv",
   componentId: "sc-6llaee-0"
-})(["color:white;text-align:justify;margin:0;padding:0;img{width:10vw;height:auto;margin-left:auto;margin-right:auto;}.col{}.card{-webkit-box-shadow:0 0 1vw rgba(154,154,154,1);-moz-box-shadow:0 0 1vw rgba(154,154,154,1);box-shadow:0 0 1vw rgba(154,154,154,1);padding:1vw;}.card-title{text-align:center;}.card-subtitle{text-align:center;padding-bottom:3vh;}.card-text{padding:1vw;}"]);
+})(["color:white;text-align:justify;margin:0;padding:0;height:83vh;img{width:10vw;height:auto;margin-left:auto;margin-right:auto;}.col{}.card{-webkit-box-shadow:0 0 1vw rgba(154,154,154,1);-moz-box-shadow:0 0 1vw rgba(154,154,154,1);box-shadow:0 0 1vw rgba(154,154,154,1);padding:1vw;}.card-title{text-align:center;}.card-subtitle{text-align:center;padding-bottom:3vh;}.card-text{padding:1vw;}"]);
 
 function RevelerProcess() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RevelerProcessDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -645,79 +642,79 @@ function RevelerProcess() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 65
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 73
     },
     __self: this
   }, "The Reveler Process"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 74
     },
     __self: this
   }, "Reveler's goal is to provide an amazing experience at a fair price. In order to guarantee the perfect experience within the budget, Reveler has a 4 step Experience Guarantee Process!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 79
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 81
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 82
     },
     __self: this
   }, "Together"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 83
     },
     __self: this
-  }, "Choose a Service"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
+  }, "Let's Discuss!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
     className: "",
     top: true,
     width: "100%",
     src: _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 84
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 85
     },
     __self: this
-  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense. Lets Discuss!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 92
@@ -744,109 +741,109 @@ function RevelerProcess() {
       lineNumber: 95
     },
     __self: this
-  }, "Visualize the Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
+  }, "Let's Visualize!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
     className: "",
     top: true,
     width: "100%",
     src: _static_images_view_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 96
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 97
     },
     __self: this
-  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense. Lets Discuss!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, " ", "In establishing your vision of the perfect experience, you and Reveler will walk through and visualize the day or the event. Being prepared is the Reveler Advantage."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 105
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 106
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 107
     },
     __self: this
   }, "Our Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 108
     },
     __self: this
-  }, "Implement the Plan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
+  }, "Let's Get To It!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
     className: "",
     top: true,
     width: "100%",
     src: _static_images_implement_png__WEBPACK_IMPORTED_MODULE_6___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 109
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 110
     },
     __self: this
-  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense. Lets Discuss!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, "With more than 30 years of music entertainment experience and of high level customer satisfaction experience , You can leave your focus on enjoying the event. NO EXCUSES!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 117
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 118
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 119
     },
     __self: this
   }, "Your Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 120
     },
     __self: this
-  }, "Party Down"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
+  }, "Let's Party!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
     className: "",
     top: true,
     width: "100%",
     src: _static_images_toast_png__WEBPACK_IMPORTED_MODULE_7___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 121
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 122
     },
     __self: this
   }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense. Lets Discuss!")))))));

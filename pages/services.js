@@ -14,6 +14,7 @@ const ServicesDiv = styled.div`
   margin: 0;
   padding: 0;
   color: white;
+  height: 83vh;
 
   .colStyle {
     text-align: center;
