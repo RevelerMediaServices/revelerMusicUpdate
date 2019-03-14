@@ -296,7 +296,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/images/mobileLandingPage.jpg */ "./static/images/mobileLandingPage.jpg");
 /* harmony import */ var _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/images/RevelerLogoWhiteShadow.png */ "./static/images/RevelerLogoWhiteShadow.png");
+/* harmony import */ var _static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_7__);
 var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\Client Work\\websiteUpdateRevelerMusic\\rmUpdate\\components\\Layout.js";
+
 
 
 
@@ -307,13 +310,13 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 var LayoutDiv = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
   displayName: "Layout__LayoutDiv",
   componentId: "sc-1pf2tfi-0"
-})(["height:100vh;background-image:url(", ");background-size:100% 100%;@media screen and (max-width:700px){background-image:url(", ");background-size:100% 100%;}"], _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default.a, _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6___default.a);
+})(["height:100vh;background-image:url(", ");background-size:100% 100%;@media screen and (max-width:700px){background-image:url(", ");background-size:100% 100%;}#imgRMLogoLayout{width:20vw;position:fixed;top:1vh;left:1vw;z-index:9999;}"], _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default.a, _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6___default.a);
 
 function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LayoutDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -323,25 +326,34 @@ function Layout(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 35
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    id: "imgRMLogoLayout",
+    src: _static_images_RevelerLogoWhiteShadow_png__WEBPACK_IMPORTED_MODULE_7___default.a,
+    alt: "Reveler Music, LLC Logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RMNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 47
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 48
     },
     __self: this
   }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 49
     },
     __self: this
   }));
@@ -27986,19 +27998,19 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 var ServicesDiv = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "services__ServicesDiv",
   componentId: "sc-5x131j-0"
-})(["margin:0;padding:0;color:white;height:83vh;.colStyle{text-align:center;color:white;img{width:5vw;}@media only screen and (max-width:1200px) and (min-width:700px){padding-top:2vh;img{width:10vw;}}@media only screen and (max-width:700px){padding-top:2vh;img{width:23vw;}}}.card{background:rgba(0,0,0,0.6);height:100%;-webkit-box-shadow:0 0 1vw rgba(154,154,154,1);-moz-box-shadow:0 0 1vw rgba(154,154,154,1);box-shadow:0 0 1vw rgba(154,154,154,1);}.card-title{font-family:\"Montserrat\",sans-serif;font-size:2.5vw;font-weight:800;font-variant:small-caps;@media only screen and (max-width:1200px) and (min-width:700px){font-size:5vw;}@media only screen and (max-width:700px){font-size:10vw;}}.card-text{font-family:\"PT Serif\",serif;font-size:0.8vw;font-weight:600;@media only screen and (max-width:1200px) and (min-width:700px){font-size:1.8vw;}@media only screen and (max-width:700px){font-size:3.5vw;}}"]);
+})(["margin:0;padding:0;color:white;height:83vh;h1{text-align:center;}#pRevelerServicesGoal{margin-left:15vw;margin-right:15vw;}.colStyle{text-align:center;color:white;img{width:5vw;}@media only screen and (max-width:1200px) and (min-width:700px){padding-top:2vh;img{width:10vw;}}@media only screen and (max-width:700px){padding-top:2vh;img{width:23vw;}}}.card{background:rgba(0,0,0,0.6);height:100%;-webkit-box-shadow:0 0 1vw rgba(154,154,154,1);-moz-box-shadow:0 0 1vw rgba(154,154,154,1);box-shadow:0 0 1vw rgba(154,154,154,1);}.card-title{font-family:\"Montserrat\",sans-serif;font-size:2.5vw;font-weight:800;font-variant:small-caps;@media only screen and (max-width:1200px) and (min-width:700px){font-size:5vw;}@media only screen and (max-width:700px){font-size:10vw;}}.card-text{font-family:\"PT Serif\",serif;font-size:0.8vw;font-weight:600;@media only screen and (max-width:1200px) and (min-width:700px){font-size:1.8vw;}@media only screen and (max-width:700px){font-size:3.5vw;}}"]);
 
 function Services() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 94
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ServicesDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -28008,26 +28020,33 @@ function Services() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 96
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 103
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 104
     },
     __self: this
-  }, "Services Page"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], {
+  }, "The Reveler Process"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    id: "pRevelerServicesGoal",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 105
+    },
+    __self: this
+  }, "Reveler's goal is to provide an amazing experience at a fair price. In order to guarantee the perfect experience within the budget, Reveler has a 4 step Experience Guarantee Process!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -28037,7 +28056,7 @@ function Services() {
     xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 112
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
@@ -28046,13 +28065,13 @@ function Services() {
     color: "secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 113
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -28060,26 +28079,26 @@ function Services() {
     alt: "Live Music icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 115
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 117
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 118
     },
     __self: this
   }, "Live Music"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 119
     },
     __self: this
   }, "With music brands to cover any event or occasion, Reveler Music offers Live Music services for Family Friendly or 21+ occasions.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -28089,7 +28108,7 @@ function Services() {
     xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
@@ -28098,13 +28117,13 @@ function Services() {
     color: "secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 128
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 129
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -28112,26 +28131,26 @@ function Services() {
     alt: "Open Mic icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 130
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 132
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 133
     },
     __self: this
   }, "Open Mics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 134
     },
     __self: this
   }, "With professional modern sound equipment, Reveler Music offers talented Open Mic services for Music or Comedy events.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -28141,7 +28160,7 @@ function Services() {
     xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 142
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
@@ -28150,13 +28169,13 @@ function Services() {
     color: "secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 143
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 144
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -28164,26 +28183,26 @@ function Services() {
     alt: "mixer icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 145
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 147
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 148
     },
     __self: this
   }, "Karaoke"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 149
     },
     __self: this
   }, "With 77,000+ songs of all skill level, Reveler Music offers entertaining and fun karaoke services for occasion, event or genre.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -28193,7 +28212,7 @@ function Services() {
     xs: "12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 157
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
@@ -28202,13 +28221,13 @@ function Services() {
     color: "secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 158
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 159
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -28216,26 +28235,26 @@ function Services() {
     alt: "mixer icon",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 160
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 162
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 163
     },
     __self: this
   }, "DJ"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardText"], {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 164
     },
     __self: this
   }, "With more than 30 years of music experience, Reveler Music offers spectacular dynamic DJ services to create the perfect experience."))))))));
@@ -28261,6 +28280,17 @@ function Services() {
     })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/services")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./static/images/RevelerLogoWhiteShadow.png":
+/*!**************************************************!*\
+  !*** ./static/images/RevelerLogoWhiteShadow.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RevelerLogoWhiteShadow-8bbba9ab68dbc8fc115d3811c703e8f7.png";
 
 /***/ }),
 
@@ -28330,7 +28360,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABm
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*********************************!*\
   !*** multi ./pages/services.js ***!
   \*********************************/
@@ -28355,5 +28385,5 @@ module.exports = dll_1ad69d3c0c6c675650a5;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=services.js.map

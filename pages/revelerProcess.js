@@ -26,6 +26,15 @@ const RevelerProcessDiv = styled.div`
   padding: 0;
   height: 83vh;
 
+  h1 {
+    text-align: center;
+  }
+
+  #pRevelerProcessGoal {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
   img {
     width: 10vw;
     height: auto;
@@ -71,7 +80,7 @@ function RevelerProcess() {
         />
         <div className="container">
           <h1>The Reveler Process</h1>
-          <p>
+          <p id="pRevelerProcessGoal">
             Reveler's goal is to provide an amazing experience at a fair price.
             In order to guarantee the perfect experience within the budget,
             Reveler has a 4 step Experience Guarantee Process!
@@ -120,10 +129,9 @@ function RevelerProcess() {
                 <CardSubtitle className="">Let's Party!</CardSubtitle>
                 <CardImg className="" top width="100%" src={imgPartyDown} />
                 <CardText className="">
-                  Every event is unique in its specialness. If a live band is
-                  the best option for your event, Reveler has those
-                  capabilities. Maybe a DJ or Karaoke makes more sense. Lets
-                  Discuss!
+                  You deserve this! You have worked hard each and every day to
+                  provide for your family. Now it is time to enjoy the benefits
+                  of all your hard work. GET AFTER IT!
                 </CardText>
               </Card>
             </Col>

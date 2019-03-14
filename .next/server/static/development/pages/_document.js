@@ -177,35 +177,19 @@ function (_Document) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-        href: "https://fonts.googleapis.com/css?family=Charm|Charmonman|Cormorant+SC|Diplomata|Diplomata+SC|Emilys+Candy|Euphoria+Script|IM+Fell+DW+Pica+SC|Meddon|MedievalSharp|Milonga|Montez|Mr+Bedfort|Mr+Dafoe|Mrs+Saint+Delafield|Rochester|Romanesco|Rouge+Script|Sancreek|UnifrakturCook:700|Zilla+Slab+Highlight",
+        href: "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css",
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-        href: "https://fonts.googleapis.com/css?family=Cookie|Patrick+Hand|Permanent+Marker|Special+Elite",
-        rel: "stylesheet",
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1.0",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-        href: "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css",
-        rel: "stylesheet",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
@@ -215,19 +199,19 @@ function (_Document) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 43
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 44
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 45
         },
         __self: this
       })));
@@ -261,36 +245,6 @@ function (_Document) {
 
   return MyDocument;
 }(next_document__WEBPACK_IMPORTED_MODULE_1___default.a);
-/*
-
-Loaded Fonts
-font-family: 'Charm', cursive;
-font-family: 'Mr Dafoe', cursive;
-
-font-family: 'Rochester', cursive;
-font-family: 'Charmonman', cursive;
-font-family: 'Montez', cursive;
-font-family: 'Emilys Candy', cursive;
-font-family: 'Euphoria Script', cursive;
-font-family: 'Rouge Script', cursive;
-font-family: 'Meddon', cursive;
-font-family: 'Cormorant SC', serif;
-font-family: 'Mrs Saint Delafield', cursive;
-font-family: 'Milonga', cursive;
-font-family: 'Sancreek', cursive;
-
-font-family: 'IM Fell DW Pica SC', serif;
-font-family: 'UnifrakturCook', cursive;
-font-family: 'MedievalSharp', cursive;
-font-family: 'Diplomata SC', cursive;
-font-family: 'Diplomata', cursive;
-font-family: 'Zilla Slab Highlight', cursive;
-
-font-family: 'Romanesco', cursive;
-font-family: 'Mr Bedfort', cursive;
-
-*/
-
 
 
 

@@ -16,6 +16,15 @@ const ServicesDiv = styled.div`
   color: white;
   height: 83vh;
 
+  h1 {
+    text-align: center;
+  }
+
+  #pRevelerServicesGoal {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
   .colStyle {
     text-align: center;
     color: white;
@@ -92,7 +101,12 @@ function Services() {
           }}
         />
         <div className="container">
-          <h1>Services Page</h1>
+          <h1>The Reveler Process</h1>
+          <p id="pRevelerServicesGoal">
+            Reveler's goal is to provide an amazing experience at a fair price.
+            In order to guarantee the perfect experience within the budget,
+            Reveler has a 4 step Experience Guarantee Process!
+          </p>
 
           <Row>
             <Col className="colStyle" xl="3" md="6" xs="12">
