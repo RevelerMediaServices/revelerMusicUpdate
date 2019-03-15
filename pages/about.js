@@ -1,9 +1,10 @@
 import Layout from "../components/Layout";
 
+import { useSpring, animated } from "react-spring";
 import styled from "styled-components";
 import NextSeo from "next-seo";
 
-import { Row, Col, Container } from "reactstrap";
+import { Row, Col } from "reactstrap";
 
 import imgRMBusCard from "../static/images/RMBackofBusinessCard.png";
 import imgRMLogo from "../static/images/RevelerLogo.png";
@@ -72,6 +73,39 @@ const AboutDiv = styled.div`
 `;
 
 function About() {
+  const aboutParagraph = useSpring({
+    marginTop: 0,
+    from: { marginTop: -750 },
+    config: {
+      duration: 2000
+    },
+    delay: 0
+  });
+  const aboutParagraph2 = useSpring({
+    marginTop: 0,
+    from: { marginTop: -750 },
+    config: {
+      duration: 2000
+    },
+    delay: 1000
+  });
+  const aboutParagraph3 = useSpring({
+    marginTop: 0,
+    from: { marginTop: -750 },
+    config: {
+      duration: 2000
+    },
+    delay: 2000
+  });
+  const aboutParagraph4 = useSpring({
+    marginTop: 0,
+    from: { marginTop: -750 },
+    config: {
+      duration: 2000
+    },
+    delay: 3000
+  });
+
   return (
     <Layout>
       <AboutDiv>
@@ -87,7 +121,7 @@ function About() {
           <Row>
             <Col>
               <h2>Meet Reveler</h2>
-              <p>
+              <animated.p style={aboutParagraph}>
                 Most work very hard each and every day to provide for himself or{" "}
                 <img
                   src={imgRMBusCard}
@@ -100,11 +134,11 @@ function About() {
                 wedding or his or her college graduation make you smile. Reveler
                 Music wants to remove all worries one has about keeping the ones
                 you love happy and having a good time.
-              </p>
+              </animated.p>
             </Col>
             <Col>
               <h2>The Reveler Process</h2>
-              <p>
+              <animated.p style={aboutParagraph2}>
                 In order to ensure 100% complete and total being happy and
                 having a good time for you and your loved ones, Reveler Music,
                 LLC created a 4 step Experience Guarantee Process. 1) You and
@@ -120,11 +154,11 @@ function About() {
                   id="imgRMLogo"
                 />{" "}
                 step, You go Party down, and enjoy what you have earned.
-              </p>
+              </animated.p>
             </Col>
             <Col>
               <h2>J.</h2>
-              <p>
+              <animated.p style={aboutParagraph3}>
                 Although able to complete college degrees in Accounting,
                 Business Administration and Information Architecture, J
                 <img src={imgJ} id="imgJ" alt="Santa Baking Cookies" />{" "}
@@ -136,11 +170,11 @@ function About() {
                 played the guitar and having sang in bands from Heavy Metal to
                 Country music for more than 30 years, J has an extensive
                 background in music entertainment.
-              </p>
+              </animated.p>
             </Col>
             <Col>
               <h2>Heather</h2>
-              <p>
+              <animated.p style={aboutParagraph4}>
                 Very few things in life light up a room like Heather when she
                 walks in the room. God given natural beauty complimented with a
                 <img
@@ -154,7 +188,7 @@ function About() {
                 Born and raised on the beaches near Tampa, FL, Heather was a bit
                 of a beach bunni, but says she loves Colorado and now she is a
                 snow bunni. 😊
-              </p>
+              </animated.p>
             </Col>
           </Row>
         </div>

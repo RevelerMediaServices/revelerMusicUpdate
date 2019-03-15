@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 
+import { useSpring, animated } from "react-spring";
 import styled from "styled-components";
 import NextSeo from "next-seo";
 
@@ -147,6 +148,32 @@ const IndexDiv = styled.div`
 `;
 
 function Index() {
+  const animIndexRMLogo = useSpring({
+    from: { width: "15vw" },
+    width: "25vw",
+    config: {
+      duration: 1000
+    }
+  });
+
+  const animJHLogo = useSpring({
+    from: { marginLeft: -250, opacity: 0 },
+    to: async (next, cancel) => {
+      await next({ marginLeft: 0, opacity: 1, config: { duration: 500 } });
+      await next({ opacity: 0, config: { duration: 500 } });
+      await next({ opacity: 1, config: { duration: 500 } });
+    }
+  });
+
+  const animCDLogo = useSpring({
+    from: { marginLeft: 250, opacity: 0 },
+    to: async (next, cancel) => {
+      await next({ marginLeft: 0, opacity: 1, config: { duration: 500 } });
+      await next({ opacity: 0, config: { duration: 500 } });
+      await next({ opacity: 1, config: { duration: 500 } });
+    }
+  });
+
   return (
     <Layout>
       <IndexDiv>
@@ -166,13 +193,25 @@ function Index() {
           <a href="https://www.instagram.com/xheatherlovex/">xheatherlovex</a>
         </div>
         <div id="rmLogo">
-          <img src={imgRMWhiteLogo} alt="Reveler Music Logo" />
+          <animated.img
+            style={animIndexRMLogo}
+            src={imgRMWhiteLogo}
+            alt="Reveler Music Logo"
+          />
         </div>
         <div id="jhLogo">
-          <img src={imgJHLogo} alt="Reveler Music Logo" />
+          <animated.img
+            style={animJHLogo}
+            src={imgJHLogo}
+            alt="Reveler Music Logo"
+          />
         </div>
         <div id="cdLogo">
-          <img src={imgCDLogo} alt="Reveler Music Logo" />
+          <animated.img
+            style={animCDLogo}
+            src={imgCDLogo}
+            alt="Cowboy Drive Logo"
+          />
         </div>
         <div id="landingPageWordsAtBottom">
           Corporate, Wedding, Family Friendly or 21+

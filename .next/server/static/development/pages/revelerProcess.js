@@ -609,17 +609,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-seo */ "next-seo");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../static/images/multimedia.png */ "./static/images/multimedia.png");
-/* harmony import */ var _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _static_images_view_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/images/view.png */ "./static/images/view.png");
-/* harmony import */ var _static_images_view_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_view_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _static_images_implement_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/images/implement.png */ "./static/images/implement.png");
-/* harmony import */ var _static_images_implement_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_images_implement_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _static_images_toast_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/images/toast.png */ "./static/images/toast.png");
-/* harmony import */ var _static_images_toast_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_images_toast_png__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ "reactstrap");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_spring__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-spring */ "react-spring");
+/* harmony import */ var react_spring__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_spring__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/images/multimedia.png */ "./static/images/multimedia.png");
+/* harmony import */ var _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _static_images_view_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../static/images/view.png */ "./static/images/view.png");
+/* harmony import */ var _static_images_view_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_static_images_view_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _static_images_implement_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../static/images/implement.png */ "./static/images/implement.png");
+/* harmony import */ var _static_images_implement_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_static_images_implement_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _static_images_toast_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../static/images/toast.png */ "./static/images/toast.png");
+/* harmony import */ var _static_images_toast_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_images_toast_png__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_9__);
 var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\Client Work\\websiteUpdateRevelerMusic\\rmUpdate\\pages\\revelerProcess.js";
+
 
 
 
@@ -635,16 +638,76 @@ var RevelerProcessDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a
 })(["color:white;text-align:justify;margin:0;padding:0;height:83vh;h1{text-align:center;}#pRevelerProcessGoal{margin-left:15vw;margin-right:15vw;}img{width:10vw;height:auto;margin-left:auto;margin-right:auto;}.col{}.card{-webkit-box-shadow:0 0 1vw rgba(154,154,154,1);-moz-box-shadow:0 0 1vw rgba(154,154,154,1);box-shadow:0 0 1vw rgba(154,154,154,1);padding:1vw;}.card-title{text-align:center;}.card-subtitle{text-align:center;padding-bottom:3vh;}.card-text{padding:1vw;}"]);
 
 function RevelerProcess() {
+  var col1 = Object(react_spring__WEBPACK_IMPORTED_MODULE_4__["useSpring"])({
+    opacity: 1,
+    marginTop: 0,
+    from: {
+      opacity: 0,
+      marginTop: -250
+    },
+    delay: 0,
+    config: {
+      mass: 1,
+      tension: 180,
+      friction: 12,
+      duration: 1000
+    }
+  });
+  var col2 = Object(react_spring__WEBPACK_IMPORTED_MODULE_4__["useSpring"])({
+    opacity: 1,
+    marginTop: 0,
+    from: {
+      opacity: 0,
+      marginTop: -200
+    },
+    delay: 500,
+    config: {
+      mass: 7,
+      friction: 150,
+      tension: 2500,
+      duration: 1000
+    }
+  });
+  var col3 = Object(react_spring__WEBPACK_IMPORTED_MODULE_4__["useSpring"])({
+    opacity: 1,
+    marginTop: 0,
+    from: {
+      opacity: 0,
+      marginTop: -150
+    },
+    delay: 1000,
+    config: {
+      mass: 7,
+      friction: 150,
+      tension: 2500,
+      duration: 1000
+    }
+  });
+  var col4 = Object(react_spring__WEBPACK_IMPORTED_MODULE_4__["useSpring"])({
+    opacity: 1,
+    marginTop: 0,
+    from: {
+      opacity: 0,
+      marginTop: -100
+    },
+    delay: 1500,
+    config: {
+      mass: 7,
+      friction: 150,
+      tension: 2500,
+      duration: 1000
+    }
+  });
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 122
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(RevelerProcessDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 123
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -654,212 +717,240 @@ function RevelerProcess() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 124
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 131
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 132
     },
     __self: this
   }, "The Reveler Process"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     id: "pRevelerProcessGoal",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 133
     },
     __self: this
-  }, "Reveler's goal is to provide an amazing experience at a fair price. In order to guarantee the perfect experience within the budget, Reveler has a 4 step Experience Guarantee Process!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Row"], {
+  }, "Reveler's goal is to provide an amazing experience at a fair price. In order to guarantee the perfect experience within the budget, Reveler has a 4 step Experience Guarantee Process!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 138
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 139
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_4__["animated"].div, {
+    style: col1,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 141
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 142
     },
     __self: this
-  }, "Together"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
+  }, "Together"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 143
     },
     __self: this
-  }, "Let's Discuss!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
+  }, "Let's Discuss!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardImg"], {
     className: "",
     top: true,
     width: "100%",
-    src: _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    src: _static_images_multimedia_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 144
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 150
     },
     __self: this
-  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, "Every event is unique in its specialness. If a live band is the best option for your event, Reveler has those capabilities. Maybe a DJ or Karaoke makes more sense.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 158
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_4__["animated"].div, {
+    style: col2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 159
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 160
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 161
     },
     __self: this
-  }, "Together"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
+  }, "Together"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 162
     },
     __self: this
-  }, "Let's Visualize!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
+  }, "Let's Visualize!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardImg"], {
     className: "",
     top: true,
     width: "100%",
-    src: _static_images_view_png__WEBPACK_IMPORTED_MODULE_5___default.a,
+    src: _static_images_view_png__WEBPACK_IMPORTED_MODULE_6___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 163
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 164
     },
     __self: this
-  }, " ", "In establishing your vision of the perfect experience, you and Reveler will walk through and visualize the day or the event. Being prepared is the Reveler Advantage."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, " ", "In establishing your vision of the perfect experience, you and Reveler will walk through and visualize the day or the event. Being prepared is the Reveler Advantage.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 173
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_4__["animated"].div, {
+    style: col3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 174
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 175
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 176
     },
     __self: this
-  }, "Our Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
+  }, "Our Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 177
     },
     __self: this
-  }, "Let's Get To It!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
+  }, "Let's Get To It!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardImg"], {
     className: "",
     top: true,
     width: "100%",
-    src: _static_images_implement_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+    src: _static_images_implement_png__WEBPACK_IMPORTED_MODULE_7___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 178
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 179
     },
     __self: this
-  }, "With more than 30 years of music entertainment experience and of high level customer satisfaction experience , You can leave your focus on enjoying the event. NO EXCUSES!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Col"], {
+  }, "With more than 30 years of music entertainment experience and of high level customer satisfaction experience , You can leave your focus on enjoying the event. NO EXCUSES!")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 187
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["Card"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_4__["animated"].div, {
+    style: col4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 188
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Card"], {
     className: "bg-dark",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 189
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardTitle"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardTitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 190
     },
     __self: this
-  }, "Your Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardSubtitle"], {
+  }, "Your Job"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardSubtitle"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 191
     },
     __self: this
-  }, "Let's Party!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardImg"], {
+  }, "Let's Party!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardImg"], {
     className: "",
     top: true,
     width: "100%",
-    src: _static_images_toast_png__WEBPACK_IMPORTED_MODULE_7___default.a,
+    src: _static_images_toast_png__WEBPACK_IMPORTED_MODULE_8___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 192
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__["CardText"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["CardText"], {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 193
     },
     __self: this
-  }, "You deserve this! You have worked hard each and every day to provide for your family. Now it is time to enjoy the benefits of all your hard work. GET AFTER IT!")))))));
+  }, "You deserve this! You have worked hard each and every day to provide for your family. Now it is time to enjoy the benefits of all your hard work. GET AFTER IT!"))))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (RevelerProcess);
@@ -985,6 +1076,17 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-spring":
+/*!*******************************!*\
+  !*** external "react-spring" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-spring");
 
 /***/ }),
 
