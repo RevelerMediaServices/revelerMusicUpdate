@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -649,7 +649,7 @@ function Index() {
     },
     width: "25vw",
     config: {
-      duration: 1000
+      duration: 3000
     }
   });
   var animJHLogo = Object(react_spring__WEBPACK_IMPORTED_MODULE_3__["useSpring"])({
@@ -670,7 +670,7 @@ function Index() {
                   marginLeft: 0,
                   opacity: 1,
                   config: {
-                    duration: 500
+                    duration: 1000
                   }
                 });
 
@@ -679,7 +679,7 @@ function Index() {
                 return next({
                   opacity: 0,
                   config: {
-                    duration: 500
+                    duration: 1000
                   }
                 });
 
@@ -688,7 +688,7 @@ function Index() {
                 return next({
                   opacity: 1,
                   config: {
-                    duration: 500
+                    duration: 1000
                   }
                 });
 
@@ -725,7 +725,7 @@ function Index() {
                   marginLeft: 0,
                   opacity: 1,
                   config: {
-                    duration: 500
+                    duration: 1000
                   }
                 });
 
@@ -734,7 +734,7 @@ function Index() {
                 return next({
                   opacity: 0,
                   config: {
-                    duration: 500
+                    duration: 1000
                   }
                 });
 
@@ -743,7 +743,7 @@ function Index() {
                 return next({
                   opacity: 1,
                   config: {
-                    duration: 500
+                    duration: 1000
                   }
                 });
 
@@ -966,7 +966,7 @@ module.exports = "/_next/static/images/mobileLandingPage-d54ad7317266d8b78da0a52
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

@@ -35,6 +35,10 @@ export default class MyDocument extends Document {
             href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
             rel="stylesheet"
           />
+          <link
+            href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans"
+            rel="stylesheet"
+          />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
@@ -48,3 +52,10 @@ export default class MyDocument extends Document {
     );
   }
 }
+
+/*
+
+Google Fonts installed
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+*/

@@ -152,25 +152,25 @@ function Index() {
     from: { width: "15vw" },
     width: "25vw",
     config: {
-      duration: 1000
+      duration: 3000
     }
   });
 
   const animJHLogo = useSpring({
     from: { marginLeft: -250, opacity: 0 },
     to: async (next, cancel) => {
-      await next({ marginLeft: 0, opacity: 1, config: { duration: 500 } });
-      await next({ opacity: 0, config: { duration: 500 } });
-      await next({ opacity: 1, config: { duration: 500 } });
+      await next({ marginLeft: 0, opacity: 1, config: { duration: 1000 } });
+      await next({ opacity: 0, config: { duration: 1000 } });
+      await next({ opacity: 1, config: { duration: 1000 } });
     }
   });
 
   const animCDLogo = useSpring({
     from: { marginLeft: 250, opacity: 0 },
     to: async (next, cancel) => {
-      await next({ marginLeft: 0, opacity: 1, config: { duration: 500 } });
-      await next({ opacity: 0, config: { duration: 500 } });
-      await next({ opacity: 1, config: { duration: 500 } });
+      await next({ marginLeft: 0, opacity: 1, config: { duration: 1000 } });
+      await next({ opacity: 0, config: { duration: 1000 } });
+      await next({ opacity: 1, config: { duration: 1000 } });
     }
   });
 

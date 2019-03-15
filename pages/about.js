@@ -14,8 +14,13 @@ import imgHeather from "../static/images/heatherSelfie.jpg";
 const AboutDiv = styled.div`
   margin: 0;
   padding: 0;
-  height: 83vh;
   background: white;
+
+  @media (min-width: 1200px) {
+    margin: 0;
+    padding: 0;
+    height: 83vh;
+  }
 
   .row {
     margin: 0;
@@ -23,21 +28,39 @@ const AboutDiv = styled.div`
   }
 
   h1 {
-    font-family: "Cookie", cursive;
-    font-size: 4.5vw;
+    font-size: 4.855em;
     text-align: center;
+    height: 15%;
+
+    font-family: "Fjalla One", sans-serif;
+
+    @media (max-width: 576px) {
+    }
+
+    @media (min-width: 576px) {
+    }
+
+    @media (min-width: 992px) {
+    }
+
+    @media (min-width: 1200px) {
+    }
   }
 
   h2 {
-    font-family: "Permanent Marker", cursive;
-    font-size: 2vw;
+    font-family: "Special Elite", cursive;
+    font-size: 2.427em;
     text-align: center;
+    font-variant: small-caps;
   }
 
   p {
     font-family: "Special Elite", cursive;
-    font-size: 1vw;
+    font-size: 1em;
     text-align: justify;
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    height: 60%;
   }
 
   img {
@@ -74,32 +97,36 @@ const AboutDiv = styled.div`
 
 function About() {
   const aboutParagraph = useSpring({
-    marginTop: 0,
-    from: { marginTop: -750 },
+    marginLeft: 0,
+    opacity: 1,
+    from: { marginLeft: -250, opacity: 0 },
     config: {
       duration: 2000
     },
     delay: 0
   });
   const aboutParagraph2 = useSpring({
-    marginTop: 0,
-    from: { marginTop: -750 },
+    marginLeft: 0,
+    opacity: 1,
+    from: { marginLeft: -250, opacity: 0 },
     config: {
       duration: 2000
     },
     delay: 1000
   });
   const aboutParagraph3 = useSpring({
-    marginTop: 0,
-    from: { marginTop: -750 },
+    marginLeft: 0,
+    opacity: 1,
+    from: { marginLeft: -250, opacity: 0 },
     config: {
       duration: 2000
     },
     delay: 2000
   });
   const aboutParagraph4 = useSpring({
-    marginTop: 0,
-    from: { marginTop: -750 },
+    marginLeft: 0,
+    opacity: 1,
+    from: { marginLeft: -250, opacity: 0 },
     config: {
       duration: 2000
     },
@@ -119,7 +146,7 @@ function About() {
         <h1>About Reveler Music, LLC</h1>
         <div className="rowWrapper">
           <Row>
-            <Col>
+            <Col xl={3} lg={6}>
               <h2>Meet Reveler</h2>
               <animated.p style={aboutParagraph}>
                 Most work very hard each and every day to provide for himself or{" "}
@@ -136,8 +163,8 @@ function About() {
                 you love happy and having a good time.
               </animated.p>
             </Col>
-            <Col>
-              <h2>The Reveler Process</h2>
+            <Col xl={3} lg={6}>
+              <h2>Reveler Process</h2>
               <animated.p style={aboutParagraph2}>
                 In order to ensure 100% complete and total being happy and
                 having a good time for you and your loved ones, Reveler Music,
@@ -156,7 +183,7 @@ function About() {
                 step, You go Party down, and enjoy what you have earned.
               </animated.p>
             </Col>
-            <Col>
+            <Col xl={3} lg={6} className="colStyle">
               <h2>J.</h2>
               <animated.p style={aboutParagraph3}>
                 Although able to complete college degrees in Accounting,
@@ -172,7 +199,7 @@ function About() {
                 background in music entertainment.
               </animated.p>
             </Col>
-            <Col>
+            <Col xl={3} lg={6}>
               <h2>Heather</h2>
               <animated.p style={aboutParagraph4}>
                 Very few things in life light up a room like Heather when she
