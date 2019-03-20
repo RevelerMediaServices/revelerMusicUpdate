@@ -192,12 +192,20 @@ function (_Document) {
           lineNumber: 38
         },
         __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+        href: "https://fonts.googleapis.com/css?family=Oswald",
+        rel: "stylesheet",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
         name: "viewport",
         content: "width=device-width, initial-scale=1.0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 46
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
@@ -207,19 +215,19 @@ function (_Document) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 52
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 53
         },
         __self: this
       })));
@@ -258,6 +266,10 @@ function (_Document) {
 Google Fonts installed
 font-family: 'Fjalla One', sans-serif;
 font-family: 'Noto Sans', sans-serif;
+
+
+** Navigation Font
+font-family: 'Oswald', sans-serif;
 */
 
 

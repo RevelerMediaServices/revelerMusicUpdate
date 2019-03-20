@@ -15,16 +15,20 @@ const LayoutDiv = styled.div`
   background-image: url(${imgBG});
   background-size: 100% 100%;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 600px) {
     background-image: url(${imgMobileBG});
     background-size: 100% 100%;
+  }
+
+  #navbarDiv {
+    z-index: 9999;
   }
 
   #imgRMLogoLayout {
     width: 20vw;
     position: fixed;
     top: 1vh;
-    left: 1vw;
+    right: 1vw;
     z-index: 9999;
   }
 `;
@@ -34,9 +38,10 @@ function Layout(props) {
     <LayoutDiv>
       <NextSeo
         config={{
-          title: "Reveler Media Services Next.js/Firebase starter",
+          title:
+            "Reveler Music, LLC - #BringinTheParty ** Music Entertainment Services",
           description:
-            "Next.js starter template with Styled-Components, Firebase, Next-SEO"
+            "Reveler Music, LLC provides Music Entertainment Services for the Colorado Corridor, Denver, Castle Rock, Colorado Springs, Pueblow and the surrounding areas.  Live Music, Live Sound and Open Mics, Karaoke and DJ"
         }}
       />
       <img
@@ -44,7 +49,9 @@ function Layout(props) {
         src={imgRMLogoLayout}
         alt="Reveler Music, LLC Logo"
       />
-      <RMNavbar />
+      <div id="navbarDiv">
+        <RMNavbar style={{ zIndex: "9999" }} />
+      </div>
       <div>{props.children}</div>
       <Footer />
     </LayoutDiv>

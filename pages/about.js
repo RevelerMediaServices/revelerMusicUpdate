@@ -15,6 +15,14 @@ const AboutDiv = styled.div`
   margin: 0;
   padding: 0;
   background: white;
+  @media (max-width: 576px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 992px) {
+  }
 
   @media (min-width: 1200px) {
     margin: 0;
@@ -35,6 +43,7 @@ const AboutDiv = styled.div`
     font-family: "Fjalla One", sans-serif;
 
     @media (max-width: 576px) {
+      font-size: 2em;
     }
 
     @media (min-width: 576px) {
@@ -49,9 +58,13 @@ const AboutDiv = styled.div`
 
   h2 {
     font-family: "Special Elite", cursive;
-    font-size: 2.427em;
+    font-size: 2.023em;
     text-align: center;
     font-variant: small-caps;
+
+    @media (max-width: 576px) {
+      font-size: 1.214em;
+    }
   }
 
   p {
@@ -61,22 +74,34 @@ const AboutDiv = styled.div`
     font-family: "Noto Sans", sans-serif;
     width: 100%;
     height: 60%;
+
+    @media (max-width: 576px) {
+      font-size: 0.809em;
+    }
   }
 
   img {
-    width: 10vw;
     float: right;
-    margin: 0.5vw;
+    margin: 1vw;
+    z-index: -1;
   }
 
   #imgRMBusCard {
     width: 21vw;
     float: left;
+
+    @media (max-width: 576px) {
+      width: 42vw;
+    }
   }
 
   #imgRMLogo {
     width: 15vw;
     float: right;
+
+    @media (max-width: 576px) {
+      width: 45vw;
+    }
   }
 
   #imgJ {
@@ -84,6 +109,10 @@ const AboutDiv = styled.div`
     float: right;
     outline: 0.15vw dashed black;
     border: 0.4vw solid white;
+
+    @media (max-width: 576px) {
+      width: 45vw;
+    }
   }
 
   #imgHeather {
@@ -92,6 +121,10 @@ const AboutDiv = styled.div`
     margin-top: 0.3vw;
     outline: 0.15vw dashed black;
     border: 0.4vw solid white;
+
+    @media (max-width: 576px) {
+      width: 45vw;
+    }
   }
 `;
 

@@ -39,6 +39,10 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans"
             rel="stylesheet"
           />
+          <link
+            href="https://fonts.googleapis.com/css?family=Oswald"
+            rel="stylesheet"
+          />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
@@ -58,4 +62,8 @@ export default class MyDocument extends Document {
 Google Fonts installed
 font-family: 'Fjalla One', sans-serif;
 font-family: 'Noto Sans', sans-serif;
+
+
+** Navigation Font
+font-family: 'Oswald', sans-serif;
 */
