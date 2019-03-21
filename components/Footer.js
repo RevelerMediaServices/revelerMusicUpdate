@@ -2,17 +2,26 @@ import styled from "styled-components";
 
 import Link from "next/link";
 
-const FooterDiv = styled.div`
-  padding: 0;
-  margin: 0;
+import { Row, Col } from "reactstrap";
 
-  background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(0.5vw);
+const FooterDiv = styled.div`
+  font-size: 1.3em;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1vw;
 
   footer {
-    background-color: transparent;
-    height: 7vh;
+    height: 10vh;
     padding-top: 0.5vw;
+
+    @media only screen and (max-width: 767px) {
+      height: 20vh;
+      font-size: 0.8em;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+      height: 20vh;
+      font-size: 1em;
+    }
   }
 
   footer .menu li a {
@@ -30,7 +39,7 @@ const FooterDiv = styled.div`
   .fa.fa-youtube-play,
   .fa.fa-instagram {
     color: #b1aca1;
-    font-size: 1.5vw;
+    font-size: 1.5em;
     padding-left: 1vw;
     padding-right: 1vw;
   }
@@ -48,8 +57,8 @@ function Footer() {
       <div className="footerDiv">
         <footer>
           <div className="container">
-            <div className="row text-center">
-              <div className="col-md-6 col-sm-6 col-xs-12">
+            <Row className="text-center">
+              <Col xl={6} className="">
                 <ul className="list-inline">
                   <li className="list-inline-item">
                     <Link href="https://www.facebook.com/revelermusicllc">
@@ -75,9 +84,9 @@ function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </Col>
 
-              <div className="col-md-6 col-sm-6 col-xs-12">
+              <Col xl={6} className="">
                 <ul className="menu list-inline">
                   <li className="list-inline-item">
                     <Link href="/">
@@ -96,7 +105,7 @@ function Footer() {
                   </li>
                   <li className="list-inline-item">
                     <Link href="/revelerProcess">
-                      <a>Reveler Process</a>
+                      <a>Process</a>
                     </Link>
                   </li>
                   <li className="list-inline-item">
@@ -105,8 +114,8 @@ function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
         </footer>
       </div>

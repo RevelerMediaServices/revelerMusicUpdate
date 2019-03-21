@@ -24,13 +24,13 @@ const RMNavbarDiv = styled.div`
 
   width: 100%;
 
-  @media (max-width: 767px) {
+  @media only screen and (max-width: 767px) {
     padding: 0;
     margin: 0;
     font-size: 4em;
   }
 
-  @media (min-width: 1200px) {
+  @media only screen and (max-width: 1000px) and (min-width: 700px) {
     padding: 0;
     margin: 0;
   }
@@ -62,7 +62,7 @@ const RMNavbarDiv = styled.div`
 `;
 
 function RMNavbar() {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   return (
     <RMNavbarDiv>
       <Navbar expand="md" sticky="top" className="justify-content-center">
@@ -71,33 +71,46 @@ function RMNavbar() {
         </NavbarToggler>
         <Collapse isOpen={toggle} navbar>
           <div className="navWrapper">
-            <Nav right navbar>
+            <Nav navbar>
               <NavbarBrand />
               <NavItem>
                 <NavLink
                   href={process.env.BACKEND_URL + "/"}
                   className="nav-link"
+                  onClick={() => setToggle(!toggle)}
                 >
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={process.env.BACKEND_URL + "/about"}>
+                <NavLink
+                  href={process.env.BACKEND_URL + "/about"}
+                  onClick={() => setToggle(!toggle)}
+                >
                   About
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={process.env.BACKEND_URL + "/contactInfo"}>
+                <NavLink
+                  href={process.env.BACKEND_URL + "/contactInfo"}
+                  onClick={() => setToggle(!toggle)}
+                >
                   Contact
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={process.env.BACKEND_URL + "/revelerProcess"}>
+                <NavLink
+                  href={process.env.BACKEND_URL + "/revelerProcess"}
+                  onClick={() => setToggle(!toggle)}
+                >
                   Process
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={process.env.BACKEND_URL + "/services"}>
+                <NavLink
+                  href={process.env.BACKEND_URL + "/services"}
+                  onClick={() => setToggle(!toggle)}
+                >
                   Services
                 </NavLink>
               </NavItem>

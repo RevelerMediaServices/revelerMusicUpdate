@@ -8,7 +8,7 @@ import RevelerContact from "../components/RevelerContact";
 const ContactInfoDiv = styled.div`
   margin: 0;
   padding: 0;
-  height: 83vh;
+  height: 80vh;
 `;
 
 function ContactInfo() {

@@ -11,7 +11,7 @@ import imgJHLogo from "../static/images/J&Heather.png";
 
 const IndexDiv = styled.div`
   color: white;
-  height: 83vh;
+  height: 80vh;
   margin: 0;
   padding: 0;
 

@@ -15,7 +15,7 @@ const ServicesDiv = styled.div`
   margin: 0;
   padding: 0;
   color: white;
-  height: 83vh;
+  height: 80vh;
 
   img {
     width: 8vw;

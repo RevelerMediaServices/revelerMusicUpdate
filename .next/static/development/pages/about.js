@@ -14,259 +14,263 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\Client Work\\websiteUpdateRevelerMusic\\rmUpdate\\components\\Footer.js";
+
 
 
 
 var FooterDiv = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Footer__FooterDiv",
   componentId: "lufdny-0"
-})(["padding:0;margin:0;background-color:rgba(0,0,0,0.7);backdrop-filter:blur(0.5vw);footer{background-color:transparent;height:7vh;padding-top:0.5vw;}footer .menu li a{color:white;padding-left:0.5vw;padding-right:0.5vw;text-decoration:none;}footer .menu li a:hover{color:blue;}.fa.fa-facebook,.fa.fa-youtube-play,.fa.fa-instagram{color:#b1aca1;font-size:1.5vw;padding-left:1vw;padding-right:1vw;}.fa.fa-facebook:hover,.fa.fa-youtube-play:hover,.fa.fa-instagram:hover{color:#6794c2;}"]);
+})(["font-size:1.3em;background:rgba(0,0,0,0.8);padding:1vw;footer{height:10vh;padding-top:0.5vw;@media only screen and (max-width:767px){height:20vh;font-size:0.8em;}@media only screen and (max-width:1200px) and (min-width:700px){height:20vh;font-size:1em;}}footer .menu li a{color:white;padding-left:0.5vw;padding-right:0.5vw;text-decoration:none;}footer .menu li a:hover{color:blue;}.fa.fa-facebook,.fa.fa-youtube-play,.fa.fa-instagram{color:#b1aca1;font-size:1.5em;padding-left:1vw;padding-right:1vw;}.fa.fa-facebook:hover,.fa.fa-youtube-play:hover,.fa.fa-instagram:hover{color:#6794c2;}"]);
 
 function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footerDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 59
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row text-center",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+    className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 60
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-6 col-sm-6 col-xs-12",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+    xl: 6,
+    className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "list-inline",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list-inline-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 63
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "https://www.facebook.com/revelermusicllc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-facebook fa-2x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 66
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list-inline-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 71
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "https://www.facebook.com/revelermusicllc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-youtube-play fa-2x",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 74
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list-inline-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 79
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "https://www.instagram.com/revelermusicllc/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 81
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-instagram fa-2x ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 82
     },
     __self: this
-  })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-6 col-sm-6 col-xs-12",
+  })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+    xl: 6,
+    className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "menu list-inline",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 90
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list-inline-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 91
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 92
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 93
     },
     __self: this
   }, "Home"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list-inline-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 97
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 98
     },
     __self: this
   }, "About"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list-inline-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 101
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/contactInfo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 102
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 103
     },
     __self: this
   }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list-inline-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 106
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/revelerProcess",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 107
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 108
     },
     __self: this
-  }, "Reveler Process"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Process"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "list-inline-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 111
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/services",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 112
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 113
     },
     __self: this
   }, "Services"))))))))));
@@ -403,10 +407,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 var RMNavbarDiv = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "RMNavbar__RMNavbarDiv",
   componentId: "i6xy3e-0"
-})(["height:10vh;padding:0;margin:0;background:transparent;color:white;padding-top:2vh;font-size:1.5em;font-family:\"Oswald\",sans-serif;width:100%;@media (max-width:767px){padding:0;margin:0;font-size:4em;}@media (min-width:1200px){padding:0;margin:0;}.fa.fa-navicon{color:white;font-size:1.75em;}a{color:white;}.collapse{width:100%;}.nav-item{padding-left:2vw;text-align:center;@media (max-width:767px){z-index:9999;background:rgba(0,0,0,0.8);width:100%;margin:0;padding:0;}}"]);
+})(["height:10vh;padding:0;margin:0;background:transparent;color:white;padding-top:2vh;font-size:1.5em;font-family:\"Oswald\",sans-serif;width:100%;@media only screen and (max-width:767px){padding:0;margin:0;font-size:4em;}@media only screen and (max-width:1000px) and (min-width:700px){padding:0;margin:0;}.fa.fa-navicon{color:white;font-size:1.75em;}a{color:white;}.collapse{width:100%;}.nav-item{padding-left:2vw;text-align:center;@media (max-width:767px){z-index:9999;background:rgba(0,0,0,0.8);width:100%;margin:0;padding:0;}}"]);
 
 function RMNavbar() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(true),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
       _useState2 = _slicedToArray(_useState, 2),
       toggle = _useState2[0],
       setToggle = _useState2[1];
@@ -459,7 +463,6 @@ function RMNavbar() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Nav"], {
-    right: true,
     navbar: true,
     __source: {
       fileName: _jsxFileName,
@@ -481,6 +484,9 @@ function RMNavbar() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/",
     className: "nav-link",
+    onClick: function onClick() {
+      return setToggle(!toggle);
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77
@@ -489,53 +495,65 @@ function RMNavbar() {
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 85
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/about",
+    onClick: function onClick() {
+      return setToggle(!toggle);
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 86
     },
     __self: this
   }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/contactInfo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90
+    onClick: function onClick() {
+      return setToggle(!toggle);
     },
-    __self: this
-  }, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 94
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
-    href: "/revelerProcess",
+  }, "Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 101
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    href: "/revelerProcess",
+    onClick: function onClick() {
+      return setToggle(!toggle);
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
     },
     __self: this
   }, "Process")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 109
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
     href: "/services",
+    onClick: function onClick() {
+      return setToggle(!toggle);
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 110
     },
     __self: this
   }, "Services")))))));
@@ -30091,7 +30109,7 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 var AboutDiv = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
   displayName: "about__AboutDiv",
   componentId: "sc-1ed34bi-0"
-})(["margin:0;padding:0;background:white;@media (max-width:576px){}@media (min-width:576px){}@media (min-width:992px){}@media (min-width:1200px){margin:0;padding:0;height:83vh;}.row{margin:0;padding:0;}h1{font-size:4.855em;text-align:center;height:15%;font-family:\"Fjalla One\",sans-serif;@media (max-width:576px){font-size:2em;}@media (min-width:576px){}@media (min-width:992px){}@media (min-width:1200px){}}h2{font-family:\"Special Elite\",cursive;font-size:2.023em;text-align:center;font-variant:small-caps;@media (max-width:576px){font-size:1.214em;}}p{font-family:\"Special Elite\",cursive;font-size:1em;text-align:justify;font-family:\"Noto Sans\",sans-serif;width:100%;height:60%;@media (max-width:576px){font-size:0.809em;}}img{float:right;margin:1vw;z-index:-1;}#imgRMBusCard{width:21vw;float:left;@media (max-width:576px){width:42vw;}}#imgRMLogo{width:15vw;float:right;@media (max-width:576px){width:45vw;}}#imgJ{width:13vw;float:right;outline:0.15vw dashed black;border:0.4vw solid white;@media (max-width:576px){width:45vw;}}#imgHeather{width:12vw;float:left;margin-top:0.3vw;outline:0.15vw dashed black;border:0.4vw solid white;@media (max-width:576px){width:45vw;}}"]);
+})(["margin:0;padding:0;background:white;height:75.8vh;@media only screen and (max-width:767px){height:100%;}@media only screen and (max-width:1200px) and (min-width:767px){height:100%;}.row{margin:0;padding:0;}h1{font-size:4.855em;text-align:center;height:15%;font-family:\"Fjalla One\",sans-serif;@media (max-width:576px){font-size:2em;}@media (min-width:576px){}@media (min-width:992px){}@media (min-width:1200px){}}h2{font-family:\"Special Elite\",cursive;font-size:2.023em;text-align:center;font-variant:small-caps;@media (max-width:576px){font-size:1.214em;}}p{font-family:\"Special Elite\",cursive;font-size:1em;text-align:justify;font-family:\"Noto Sans\",sans-serif;width:100%;height:60%;@media (max-width:576px){font-size:0.809em;}}img{float:right;margin:1vw;z-index:-1;}#imgRMBusCard{width:21vw;float:left;@media (max-width:576px){width:42vw;}}#imgRMLogo{width:15vw;float:right;@media (max-width:576px){width:45vw;}}#imgJ{width:13vw;float:right;outline:0.15vw dashed black;border:0.4vw solid white;@media (max-width:576px){width:45vw;}}#imgHeather{width:12vw;float:left;margin-top:0.3vw;outline:0.15vw dashed black;border:0.4vw solid white;@media (max-width:576px){width:45vw;}}"]);
 
 function About() {
   var aboutParagraph = Object(react_spring__WEBPACK_IMPORTED_MODULE_2__["useSpring"])({
@@ -30145,13 +30163,13 @@ function About() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170
+      lineNumber: 166
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 167
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -30161,47 +30179,47 @@ function About() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 168
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 175
     },
     __self: this
   }, "About Reveler Music, LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "rowWrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 176
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 177
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     xl: 3,
-    lg: 6,
+    md: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182
+      lineNumber: 178
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 179
     },
     __self: this
   }, "Meet Reveler"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].p, {
     style: aboutParagraph,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184
+      lineNumber: 180
     },
     __self: this
   }, "Most work very hard each and every day to provide for himself or", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30210,28 +30228,28 @@ function About() {
     alt: "Santa & the Mrs of West Texas",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186
+      lineNumber: 182
     },
     __self: this
   }), "herself and his or her family. With all of this struggle and sacrifice it is essential that the important days go well. You deserve to have your special events such as a daughter or son's wedding or his or her college graduation make you smile. Reveler Music wants to remove all worries one has about keeping the ones you love happy and having a good time.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     xl: 3,
-    lg: 6,
+    md: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199
+      lineNumber: 195
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200
+      lineNumber: 196
     },
     __self: this
   }, "Reveler Process"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].p, {
     style: aboutParagraph2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201
+      lineNumber: 197
     },
     __self: this
   }, "In order to ensure 100% complete and total being happy and having a good time for you and your loved ones, Reveler Music, LLC created a 4 step Experience Guarantee Process. 1) You and Reveler will go through the Entertainment service options available, and together we will find the right option. 2) Next, together we will walk through the event and visualize the best outcome. 3) In the next step of the process, Reveler implements your vision in a way that ensures 100% complete and total satisfaction. No excuses! 4) Finally, the last and the best", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30240,29 +30258,29 @@ function About() {
     id: "imgRMLogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211
+      lineNumber: 207
     },
     __self: this
   }), " ", "step, You go Party down, and enjoy what you have earned.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     xl: 3,
-    lg: 6,
+    md: 6,
     className: "colStyle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219
+      lineNumber: 215
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 216
     },
     __self: this
   }, "J."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].p, {
     style: aboutParagraph3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221
+      lineNumber: 217
     },
     __self: this
   }, "Although able to complete college degrees in Accounting, Business Administration and Information Architecture, J", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30271,28 +30289,28 @@ function About() {
     alt: "Santa Baking Cookies",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224
+      lineNumber: 220
     },
     __self: this
   }), " ", "maintains the blue-collar work ethic he learned growing up in Odessa Texas. From the oil rigs of West Texas to the board rooms of the largest tax accounting firm in the world, J has appreciated a diverse work history, as well as, a diverse understanding and tolerance of people and of cultures. Having played the guitar and having sang in bands from Heavy Metal to Country music for more than 30 years, J has an extensive background in music entertainment.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
     xl: 3,
-    lg: 6,
+    md: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 235
+      lineNumber: 231
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 236
+      lineNumber: 232
     },
     __self: this
   }, "Heather"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].p, {
     style: aboutParagraph4,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 237
+      lineNumber: 233
     },
     __self: this
   }, "Very few things in life light up a room like Heather when she walks in the room. God given natural beauty complimented with a", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30301,7 +30319,7 @@ function About() {
     alt: "the Mrs Enjoying Barbeque",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240
+      lineNumber: 236
     },
     __self: this
   }), " ", "voice that could only be bestowed from the heavens. Coming from a family of outstanding musicians, Heather's natural talent was found very early, and she began formal training at the age of 4. Born and raised on the beaches near Tampa, FL, Heather was a bit of a beach bunni, but says she loves Colorado and now she is a snow bunni. \uD83D\uDE0A"))))));

@@ -25,7 +25,7 @@ const RevelerProcessDiv = styled.div`
   text-align: justify;
   margin: 0;
   padding: 0;
-  height: 83vh;
+  height: 80vh;
 
   h1 {
     text-align: center;

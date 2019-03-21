@@ -15,19 +15,15 @@ const AboutDiv = styled.div`
   margin: 0;
   padding: 0;
   background: white;
-  @media (max-width: 576px) {
+
+  height: 75.8vh;
+
+  @media only screen and (max-width: 767px) {
+    height: 100%;
   }
 
-  @media (min-width: 576px) {
-  }
-
-  @media (min-width: 992px) {
-  }
-
-  @media (min-width: 1200px) {
-    margin: 0;
-    padding: 0;
-    height: 83vh;
+  @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    height: 100%;
   }
 
   .row {
@@ -179,7 +175,7 @@ function About() {
         <h1>About Reveler Music, LLC</h1>
         <div className="rowWrapper">
           <Row>
-            <Col xl={3} lg={6}>
+            <Col xl={3} md={6}>
               <h2>Meet Reveler</h2>
               <animated.p style={aboutParagraph}>
                 Most work very hard each and every day to provide for himself or{" "}
@@ -196,7 +192,7 @@ function About() {
                 you love happy and having a good time.
               </animated.p>
             </Col>
-            <Col xl={3} lg={6}>
+            <Col xl={3} md={6}>
               <h2>Reveler Process</h2>
               <animated.p style={aboutParagraph2}>
                 In order to ensure 100% complete and total being happy and
@@ -216,7 +212,7 @@ function About() {
                 step, You go Party down, and enjoy what you have earned.
               </animated.p>
             </Col>
-            <Col xl={3} lg={6} className="colStyle">
+            <Col xl={3} md={6} className="colStyle">
               <h2>J.</h2>
               <animated.p style={aboutParagraph3}>
                 Although able to complete college degrees in Accounting,
@@ -232,7 +228,7 @@ function About() {
                 background in music entertainment.
               </animated.p>
             </Col>
-            <Col xl={3} lg={6}>
+            <Col xl={3} md={6}>
               <h2>Heather</h2>
               <animated.p style={aboutParagraph4}>
                 Very few things in life light up a room like Heather when she
