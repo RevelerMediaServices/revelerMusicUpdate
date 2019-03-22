@@ -15,7 +15,7 @@ const LayoutDiv = styled.div`
   background-image: url(${imgBG});
   background-size: 100% 100%;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 767px) {
     background-image: url(${imgMobileBG});
     background-size: 100% 100%;
   }
@@ -44,9 +44,16 @@ const LayoutDiv = styled.div`
   #imgRMLogoLayout {
     width: 20vw;
     position: fixed;
-    top: 1vh;
-    right: 1vw;
+    bottom: 8%;
+    right: 0;
     z-index: 9999;
+
+    @media only screen and (max-width: 767px) {
+      width: 40vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+    }
   }
 `;
 

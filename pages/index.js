@@ -18,21 +18,18 @@ const IndexDiv = styled.div`
   #jName {
     font-size: 2.5em;
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 20%;
     font-family: "Allerta Stencil", sans-serif;
     font-weight: 500;
 
     @media only screen and (max-width: 767px) {
-      font-size: 10em;
-      top: 70%;
-      left: 20%;
+      font-size: 1.5em;
+      top: 8%;
+      left: 2%;
     }
 
     @media only screen and (max-width: 1200px) and (min-width: 767px) {
-      font-size: 2em;
-      top: 60%;
-      left: 20%;
     }
   }
 
@@ -41,56 +38,39 @@ const IndexDiv = styled.div`
     font-size: 2.5em;
     position: absolute;
     top: 35%;
-    left: 70%;
+    right: 19%;
     font-family: "Allerta Stencil", sans-serif;
     font-weight: 500;
 
     @media only screen and (max-width: 767px) {
-      font-size: 10em;
-      top: 35%;
-      left: 70%;
+      top: 40%;
+      right: 7%;
+      font-size: 1.5em;
     }
 
     @media only screen and (max-width: 1200px) and (min-width: 767px) {
-      font-size: 2em;
-      top: 35%;
-      left: 70%;
     }
   }
 
   #rmLogo {
     position: absolute;
-    top: 5%;
+    top: 0;
     left: 50%;
-
-    img {
-      width: 25vw;
-    }
+    width: 25vw;
 
     @media only screen and (max-width: 767px) {
-      position: absolute;
-      top: 7%;
-      left: 30%;
-
-      img {
-        width: 40vw;
-      }
+      left: 5%;
+      top: 15%;
+      width: 50vw;
     }
 
     @media only screen and (max-width: 1200px) and (min-width: 767px) {
-      position: absolute;
-      top: 7%;
-      left: 55%;
-
-      img {
-        width: 35vw;
-      }
     }
   }
 
   #jhLogo {
     position: absolute;
-    top: 58%;
+    top: 50%;
     left: 40%;
 
     img {
@@ -99,12 +79,15 @@ const IndexDiv = styled.div`
 
     @media only screen and (max-width: 767px) {
       position: absolute;
-      top: 45%;
-      left: 10%;
+      top: 48%;
+      left: 1%;
 
       img {
-        width: 32vw;
+        width: 42vw;
       }
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
     }
   }
 
@@ -119,39 +102,39 @@ const IndexDiv = styled.div`
 
     @media only screen and (max-width: 767px) {
       position: absolute;
-      top: 55%;
-      left: 55%;
+      top: 60%;
 
       img {
-        width: 38vw;
+        width: 50vw;
       }
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
     }
   }
 
   #landingPageWordsAtBottom {
     position: absolute;
     font-size: 2em;
-    left: 10%;
-    bottom: 6%;
+    left: 6%;
+    bottom: 0;
     color: white;
     font-family: "Luckiest Guy", cursive;
 
     @media only screen and (max-width: 767px) {
       font-size: 0.8em;
+      bottom: 10%;
     }
 
     @media only screen and (max-width: 1200px) and (min-width: 767px) {
-      font-size: 1.8em;
-      left: 6%;
-      bottom: 2%;
     }
   }
 
   #heatherLoveInstagram {
     position: absolute;
     font-size: 1.5em;
-    left: 65%;
-    top: 53%;
+    right: 10%;
+    top: 55%;
     color: white;
     font-family: "Luckiest Guy", cursive;
 
@@ -159,26 +142,29 @@ const IndexDiv = styled.div`
       width: 3vw;
     }
 
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 767px) {
       position: absolute;
-      font-size: 5em;
-      left: 55%;
-      top: 32%;
+      font-size: 1em;
+      top: 20%;
+      right: 5%;
+
       color: white;
       font-family: "Luckiest Guy", cursive;
 
       img {
-        width: 12vw;
-        float: right;
+        width: 10vw;
       }
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
     }
   }
 `;
 
 function Index() {
   const animIndexRMLogo = useSpring({
-    from: { width: "15vw" },
-    width: "25vw",
+    from: { width: "50%" },
+    width: "100%",
     config: {
       duration: 3000
     }
@@ -196,7 +182,7 @@ function Index() {
   const animCDLogo = useSpring({
     from: { marginLeft: 250, opacity: 0 },
     to: async (next, cancel) => {
-      await next({ marginLeft: 0, opacity: 1, config: { duration: 1000 } });
+      await next({ marginLeft: -50, opacity: 1, config: { duration: 1000 } });
       await next({ opacity: 0, config: { duration: 1000 } });
       await next({ opacity: 1, config: { duration: 1000 } });
     }

@@ -307,13 +307,13 @@ var _jsxFileName = "C:\\Users\\HC\\Desktop\\RevelerMusic\\RevelerMediaServices\\
 var LayoutDiv = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div.withConfig({
   displayName: "Layout__LayoutDiv",
   componentId: "sc-1pf2tfi-0"
-})(["height:100vh;background-image:url(", ");background-size:100% 100%;@media screen and (max-width:600px){background-image:url(", ");background-size:100% 100%;}.mainViewDiv{position:fixed;top:10vh;width:100vw;height:80vh;@media only screen and (max-width:767px){height:77vh;}@media only screen and (max-width:1200px) and (min-width:700px){height:77vh;font-size:1em;overflow:scroll;}}#navbarDiv{z-index:9999;}#imgRMLogoLayout{width:20vw;position:fixed;top:1vh;right:1vw;z-index:9999;}"], _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default.a, _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6___default.a);
+})(["height:100vh;background-image:url(", ");background-size:100% 100%;@media screen and (max-width:767px){background-image:url(", ");background-size:100% 100%;}.mainViewDiv{position:fixed;top:10vh;width:100vw;height:80vh;@media only screen and (max-width:767px){height:77vh;}@media only screen and (max-width:1200px) and (min-width:700px){height:77vh;font-size:1em;overflow:scroll;}}#navbarDiv{z-index:9999;}#imgRMLogoLayout{width:20vw;position:fixed;bottom:8%;right:0;z-index:9999;@media only screen and (max-width:767px){width:40vw;}@media only screen and (max-width:1200px) and (min-width:700px){}}"], _static_images_landingPage_jpg__WEBPACK_IMPORTED_MODULE_5___default.a, _static_images_mobileLandingPage_jpg__WEBPACK_IMPORTED_MODULE_6___default.a);
 
 function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LayoutDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -323,7 +323,7 @@ function Layout(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 63
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -332,33 +332,33 @@ function Layout(props) {
     alt: "Reveler Music, LLC Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 71
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "navbarDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 76
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RMNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 77
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "mainViewDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 79
     },
     __self: this
   }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 80
     },
     __self: this
   }));
@@ -30103,14 +30103,14 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 var IndexDiv = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div.withConfig({
   displayName: "pages__IndexDiv",
   componentId: "sc-1vacgmq-0"
-})(["color:white;margin:0;padding:0;width:100vw;#jName{font-size:2.5em;position:absolute;top:65%;left:20%;font-family:\"Allerta Stencil\",sans-serif;font-weight:500;@media only screen and (max-width:767px){font-size:10em;top:70%;left:20%;}@media only screen and (max-width:1200px) and (min-width:767px){font-size:2em;top:60%;left:20%;}}#heatherName{text-align:center;font-size:2.5em;position:absolute;top:35%;left:70%;font-family:\"Allerta Stencil\",sans-serif;font-weight:500;@media only screen and (max-width:767px){font-size:10em;top:35%;left:70%;}@media only screen and (max-width:1200px) and (min-width:767px){font-size:2em;top:35%;left:70%;}}#rmLogo{position:absolute;top:5%;left:50%;img{width:25vw;}@media only screen and (max-width:767px){position:absolute;top:7%;left:30%;img{width:40vw;}}@media only screen and (max-width:1200px) and (min-width:767px){position:absolute;top:7%;left:55%;img{width:35vw;}}}#jhLogo{position:absolute;top:58%;left:40%;img{width:16vw;}@media only screen and (max-width:767px){position:absolute;top:45%;left:10%;img{width:32vw;}}}#cdLogo{position:absolute;top:68%;left:60%;img{width:16vw;}@media only screen and (max-width:767px){position:absolute;top:55%;left:55%;img{width:38vw;}}}#landingPageWordsAtBottom{position:absolute;font-size:2em;left:10%;bottom:6%;color:white;font-family:\"Luckiest Guy\",cursive;@media only screen and (max-width:767px){font-size:0.8em;}@media only screen and (max-width:1200px) and (min-width:767px){font-size:1.8em;left:6%;bottom:2%;}}#heatherLoveInstagram{position:absolute;font-size:1.5em;left:65%;top:53%;color:white;font-family:\"Luckiest Guy\",cursive;img{width:3vw;}@media only screen and (max-width:700px){position:absolute;font-size:5em;left:55%;top:32%;color:white;font-family:\"Luckiest Guy\",cursive;img{width:12vw;float:right;}}}"]);
+})(["color:white;margin:0;padding:0;width:100vw;#jName{font-size:2.5em;position:absolute;top:70%;left:20%;font-family:\"Allerta Stencil\",sans-serif;font-weight:500;@media only screen and (max-width:767px){font-size:1.5em;top:8%;left:2%;}@media only screen and (max-width:1200px) and (min-width:767px){}}#heatherName{text-align:center;font-size:2.5em;position:absolute;top:35%;right:19%;font-family:\"Allerta Stencil\",sans-serif;font-weight:500;@media only screen and (max-width:767px){top:40%;right:7%;font-size:1.5em;}@media only screen and (max-width:1200px) and (min-width:767px){}}#rmLogo{position:absolute;top:0;left:50%;width:25vw;@media only screen and (max-width:767px){left:5%;top:15%;width:50vw;}@media only screen and (max-width:1200px) and (min-width:767px){}}#jhLogo{position:absolute;top:50%;left:40%;img{width:16vw;}@media only screen and (max-width:767px){position:absolute;top:48%;left:1%;img{width:42vw;}}@media only screen and (max-width:1200px) and (min-width:767px){}}#cdLogo{position:absolute;top:68%;left:60%;img{width:16vw;}@media only screen and (max-width:767px){position:absolute;top:60%;img{width:50vw;}}@media only screen and (max-width:1200px) and (min-width:767px){}}#landingPageWordsAtBottom{position:absolute;font-size:2em;left:6%;bottom:0;color:white;font-family:\"Luckiest Guy\",cursive;@media only screen and (max-width:767px){font-size:0.8em;bottom:10%;}@media only screen and (max-width:1200px) and (min-width:767px){}}#heatherLoveInstagram{position:absolute;font-size:1.5em;right:10%;top:55%;color:white;font-family:\"Luckiest Guy\",cursive;img{width:3vw;}@media only screen and (max-width:767px){position:absolute;font-size:1em;top:20%;right:5%;color:white;font-family:\"Luckiest Guy\",cursive;img{width:10vw;}}@media only screen and (max-width:1200px) and (min-width:767px){}}"]);
 
 function Index() {
   var animIndexRMLogo = Object(react_spring__WEBPACK_IMPORTED_MODULE_3__["useSpring"])({
     from: {
-      width: "15vw"
+      width: "50%"
     },
-    width: "25vw",
+    width: "100%",
     config: {
       duration: 3000
     }
@@ -30185,7 +30185,7 @@ function Index() {
               case 0:
                 _context2.next = 2;
                 return next({
-                  marginLeft: 0,
+                  marginLeft: -50,
                   opacity: 1,
                   config: {
                     duration: 1000
@@ -30228,13 +30228,13 @@ function Index() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206
+      lineNumber: 192
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(IndexDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207
+      lineNumber: 193
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -30244,34 +30244,34 @@ function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208
+      lineNumber: 194
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "jName",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215
+      lineNumber: 201
     },
     __self: this
   }, "J. Graves"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "heatherName",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216
+      lineNumber: 202
     },
     __self: this
   }, "Heather ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217
+      lineNumber: 203
     },
     __self: this
   }), " Love"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "heatherLoveInstagram",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219
+      lineNumber: 205
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -30279,27 +30279,27 @@ function Index() {
     alt: "Instagram Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 206
     },
     __self: this
   }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 206
     },
     __self: this
   }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://www.instagram.com/xheatherlovex/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221
+      lineNumber: 207
     },
     __self: this
   }, "xheatherlovex")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "rmLogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223
+      lineNumber: 209
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_3__["animated"].img, {
@@ -30308,14 +30308,14 @@ function Index() {
     alt: "Reveler Music Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224
+      lineNumber: 210
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "jhLogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230
+      lineNumber: 216
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_3__["animated"].img, {
@@ -30324,14 +30324,14 @@ function Index() {
     alt: "Reveler Music Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 231
+      lineNumber: 217
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "cdLogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 237
+      lineNumber: 223
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_3__["animated"].img, {
@@ -30340,20 +30340,20 @@ function Index() {
     alt: "Cowboy Drive Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238
+      lineNumber: 224
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "landingPageWordsAtBottom",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244
+      lineNumber: 230
     },
     __self: this
   }, "Corporate, Wedding, Family Friendly or 21+", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246
+      lineNumber: 232
     },
     __self: this
   }), "Live Music, Open Mic, Karaoke and DJ Services")));
