@@ -15,15 +15,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/services": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/contactInfo": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/revelerProcess": [
+    "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

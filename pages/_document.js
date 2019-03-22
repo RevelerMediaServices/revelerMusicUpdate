@@ -43,6 +43,14 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Oswald"
             rel="stylesheet"
           />
+          <link
+            href="https://fonts.googleapis.com/css?family=Allerta+Stencil"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Luckiest+Guy"
+            rel="stylesheet"
+          />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
@@ -66,4 +74,8 @@ font-family: 'Noto Sans', sans-serif;
 
 ** Navigation Font
 font-family: 'Oswald', sans-serif;
+
+** People Names on Home Page Font
+font-family: 'Allerta Stencil', sans-serif;
+
 */

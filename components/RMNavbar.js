@@ -18,19 +18,24 @@ const RMNavbarDiv = styled.div`
   margin: 0;
   background: transparent;
   color: white;
-  padding-top: 2vh;
   font-size: 1.5em;
   font-family: "Oswald", sans-serif;
+  font-variant: small-caps;
 
-  width: 100%;
+  position: fixed;
+
+  width: 100vw;
+  max-width: 100%;
+
+  z-index: 9999;
 
   @media only screen and (max-width: 767px) {
     padding: 0;
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
   }
 
-  @media only screen and (max-width: 1000px) and (min-width: 700px) {
+  @media only screen and (max-width: 1200px) and (min-width: 700px) {
     padding: 0;
     margin: 0;
   }
@@ -46,12 +51,33 @@ const RMNavbarDiv = styled.div`
 
   .collapse {
     width: 100%;
+
+    @media only screen and (max-width: 767px) {
+      padding: 0;
+      margin: 0;
+
+      height: 78vh;
+      max-height: 78vh;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+      padding: 0;
+      margin: 0;
+    }
   }
 
   .nav-item {
-    padding-left: 2vw;
     text-align: center;
-    @media (max-width: 767px) {
+
+    @media only screen and (max-width: 767px) {
+      z-index: 9999;
+      background: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 700px) {
       z-index: 9999;
       background: rgba(0, 0, 0, 0.8);
       width: 100%;
@@ -66,7 +92,7 @@ function RMNavbar() {
   return (
     <RMNavbarDiv>
       <Navbar expand="md" sticky="top" className="justify-content-center">
-        <NavbarToggler className="" onClick={() => setToggle(!toggle)}>
+        <NavbarToggler onClick={() => setToggle(!toggle)} className="">
           <i className="fa fa-navicon" />
         </NavbarToggler>
         <Collapse isOpen={toggle} navbar>
@@ -77,40 +103,27 @@ function RMNavbar() {
                 <NavLink
                   href={process.env.BACKEND_URL + "/"}
                   className="nav-link"
-                  onClick={() => setToggle(!toggle)}
                 >
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href={process.env.BACKEND_URL + "/about"}
-                  onClick={() => setToggle(!toggle)}
-                >
+                <NavLink href={process.env.BACKEND_URL + "/about"}>
                   About
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href={process.env.BACKEND_URL + "/contactInfo"}
-                  onClick={() => setToggle(!toggle)}
-                >
+                <NavLink href={process.env.BACKEND_URL + "/contactInfo"}>
                   Contact
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href={process.env.BACKEND_URL + "/revelerProcess"}
-                  onClick={() => setToggle(!toggle)}
-                >
+                <NavLink href={process.env.BACKEND_URL + "/revelerProcess"}>
                   Process
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink
-                  href={process.env.BACKEND_URL + "/services"}
-                  onClick={() => setToggle(!toggle)}
-                >
+                <NavLink href={process.env.BACKEND_URL + "/services"}>
                   Services
                 </NavLink>
               </NavItem>

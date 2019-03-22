@@ -20,6 +20,23 @@ const LayoutDiv = styled.div`
     background-size: 100% 100%;
   }
 
+  .mainViewDiv {
+    position: fixed;
+    top: 10vh;
+    width: 100vw;
+    height: 80vh;
+
+    @media only screen and (max-width: 767px) {
+      height: 77vh;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+      height: 77vh;
+      font-size: 1em;
+      overflow: scroll;
+    }
+  }
+
   #navbarDiv {
     z-index: 9999;
   }
@@ -50,9 +67,9 @@ function Layout(props) {
         alt="Reveler Music, LLC Logo"
       />
       <div id="navbarDiv">
-        <RMNavbar style={{ zIndex: "9999" }} />
+        <RMNavbar />
       </div>
-      <div>{props.children}</div>
+      <div className="mainViewDiv">{props.children}</div>
       <Footer />
     </LayoutDiv>
   );
