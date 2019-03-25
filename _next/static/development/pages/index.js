@@ -319,7 +319,18 @@ function Layout(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
     config: {
       title: "Reveler Music, LLC - #BringinTheParty ** Music Entertainment Services",
-      description: "Reveler Music, LLC provides Music Entertainment Services for the Colorado Corridor, Denver, Castle Rock, Colorado Springs, Pueblow and the surrounding areas.  Live Music, Live Sound and Open Mics, Karaoke and DJ"
+      description: "Reveler Music, LLC provides Music Entertainment Services for the Colorado Corridor, Denver, Castle Rock, Colorado Springs, Pueblow and the surrounding areas.  Live Music, Live Sound and Open Mics, Karaoke and DJ",
+      canonical: "https://revelermusic.com",
+      openGraph: {
+        type: "website",
+        url: "https://revelermusic.com/",
+        title: "Reveler Music, LLC - Contact Page",
+        description: "Contact Reveler Music, LLC for music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas.",
+        site_name: "Revler Music, LLC"
+      },
+      twitter: {
+        handle: "@jwgravesco"
+      }
     },
     __source: {
       fileName: _jsxFileName,
@@ -332,33 +343,33 @@ function Layout(props) {
     alt: "Reveler Music, LLC Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 88
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "navbarDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RMNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 94
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "mainViewDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 96
     },
     __self: this
   }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 97
     },
     __self: this
   }));
@@ -30239,8 +30250,19 @@ function Index() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_5___default.a, {
     config: {
-      title: "Reveler Music, LLC - Landing Page ",
-      description: "Reveler Music, LLC offers music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas."
+      title: "Reveler Music, LLC - #BringinTheParty ** Music Entertainment Services",
+      description: "Reveler Music, LLC offers music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas.",
+      canonical: "https://revelermusic.com",
+      openGraph: {
+        type: "website",
+        url: "https://revelermusic.com/",
+        title: "Reveler Music, LLC - Landing Page",
+        description: "Reveler Music, LLC offers music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas.",
+        site_name: "Revler Music, LLC"
+      },
+      twitter: {
+        handle: "@jwgravesco"
+      }
     },
     __source: {
       fileName: _jsxFileName,
@@ -30251,27 +30273,27 @@ function Index() {
     id: "jName",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201
+      lineNumber: 214
     },
     __self: this
   }, "J. Graves"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "heatherName",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202
+      lineNumber: 215
     },
     __self: this
   }, "Heather ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203
+      lineNumber: 216
     },
     __self: this
   }), " Love"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "heatherLoveInstagram",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 205
+      lineNumber: 218
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -30279,27 +30301,27 @@ function Index() {
     alt: "Instagram Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206
+      lineNumber: 219
     },
     __self: this
   }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206
+      lineNumber: 219
     },
     __self: this
   }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://www.instagram.com/xheatherlovex/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207
+      lineNumber: 220
     },
     __self: this
   }, "xheatherlovex")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "rmLogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209
+      lineNumber: 222
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_3__["animated"].img, {
@@ -30308,14 +30330,14 @@ function Index() {
     alt: "Reveler Music Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210
+      lineNumber: 223
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "jhLogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216
+      lineNumber: 229
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_3__["animated"].img, {
@@ -30324,14 +30346,14 @@ function Index() {
     alt: "Reveler Music Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217
+      lineNumber: 230
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "cdLogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223
+      lineNumber: 236
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_3__["animated"].img, {
@@ -30340,20 +30362,20 @@ function Index() {
     alt: "Cowboy Drive Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224
+      lineNumber: 237
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "landingPageWordsAtBottom",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230
+      lineNumber: 243
     },
     __self: this
   }, "Corporate, Wedding, Family Friendly or 21+", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232
+      lineNumber: 245
     },
     __self: this
   }), "Live Music, Open Mic, Karaoke and DJ Services")));
@@ -30448,7 +30470,7 @@ module.exports = "/_next/static/images/mobileLandingPage-d54ad7317266d8b78da0a52
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -30473,5 +30495,5 @@ module.exports = dll_1ad69d3c0c6c675650a5;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map
