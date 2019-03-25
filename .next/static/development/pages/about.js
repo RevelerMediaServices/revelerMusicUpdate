@@ -319,7 +319,18 @@ function Layout(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
     config: {
       title: "Reveler Music, LLC - #BringinTheParty ** Music Entertainment Services",
-      description: "Reveler Music, LLC provides Music Entertainment Services for the Colorado Corridor, Denver, Castle Rock, Colorado Springs, Pueblow and the surrounding areas.  Live Music, Live Sound and Open Mics, Karaoke and DJ"
+      description: "Reveler Music, LLC provides Music Entertainment Services for the Colorado Corridor, Denver, Castle Rock, Colorado Springs, Pueblow and the surrounding areas.  Live Music, Live Sound and Open Mics, Karaoke and DJ",
+      canonical: "https://revelermusic.com",
+      openGraph: {
+        type: "website",
+        url: "https://revelermusic.com/",
+        title: "Reveler Music, LLC - Contact Page",
+        description: "Contact Reveler Music, LLC for music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas.",
+        site_name: "Revler Music, LLC"
+      },
+      twitter: {
+        handle: "@jwgravesco"
+      }
     },
     __source: {
       fileName: _jsxFileName,
@@ -332,33 +343,33 @@ function Layout(props) {
     alt: "Reveler Music, LLC Logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 88
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "navbarDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RMNavbar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 94
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "mainViewDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 96
     },
     __self: this
   }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 97
     },
     __self: this
   }));
@@ -30155,8 +30166,19 @@ function About() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4___default.a, {
     config: {
-      title: "Reveler Music, LLC - About Page ",
-      description: "Meet Reveler Music, LLC, we offer music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas."
+      title: "Reveler Music, LLC - #BringinTheParty ** Music Entertainment Services - About Page",
+      description: "Meet Reveler Music, LLC, we offer music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas.",
+      canonical: "https://revelermusic.com",
+      openGraph: {
+        type: "website",
+        url: "https://revelermusic.com/about",
+        title: "Reveler Music, LLC - About Page",
+        description: "Meet Reveler Music, LLC, we offer music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas.",
+        site_name: "Revler Music, LLC"
+      },
+      twitter: {
+        handle: "@jwgravesco"
+      }
     },
     __source: {
       fileName: _jsxFileName,
@@ -30166,20 +30188,20 @@ function About() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206
+      lineNumber: 219
     },
     __self: this
   }, "About Reveler Music, LLC"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "rowWrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207
+      lineNumber: 220
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208
+      lineNumber: 221
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -30188,20 +30210,20 @@ function About() {
     md: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209
+      lineNumber: 222
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210
+      lineNumber: 223
     },
     __self: this
   }, "Meet Reveler"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].p, {
     style: aboutParagraph,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211
+      lineNumber: 224
     },
     __self: this
   }, "Most work very hard each and every day to provide for himself or", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30210,7 +30232,7 @@ function About() {
     alt: "Santa & the Mrs of West Texas",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213
+      lineNumber: 226
     },
     __self: this
   }), "herself and his or her family. With all of this struggle and sacrifice it is essential that the important days go well. You deserve to have your special events such as a daughter or son's wedding or his or her college graduation make you smile. Reveler Music wants to remove all worries one has about keeping the ones you love happy and having a good time.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -30219,20 +30241,20 @@ function About() {
     md: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226
+      lineNumber: 239
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227
+      lineNumber: 240
     },
     __self: this
   }, "Reveler Process"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].p, {
     style: aboutParagraph2,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 228
+      lineNumber: 241
     },
     __self: this
   }, "In order to ensure 100% complete and total being happy and having a good time for you and your loved ones, Reveler Music, LLC created a 4 step Experience Guarantee Process. 1) You and Reveler will go through the Entertainment service options available, and together we will find the right option. 2) Next, together we will walk through the event and visualize the best outcome. 3) In the next step of the process, Reveler implements your vision in a way that ensures 100% complete and total satisfaction. No excuses! 4) Finally, the last and the best", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30241,7 +30263,7 @@ function About() {
     id: "imgRMLogo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238
+      lineNumber: 251
     },
     __self: this
   }), " ", "step, You go Party down, and enjoy what you have earned.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], (_React$createElement = {
@@ -30250,18 +30272,18 @@ function About() {
     md: 6
   }, _defineProperty(_React$createElement, "className", "colStyle"), _defineProperty(_React$createElement, "__source", {
     fileName: _jsxFileName,
-    lineNumber: 246
+    lineNumber: 259
   }), _defineProperty(_React$createElement, "__self", this), _React$createElement), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 247
+      lineNumber: 260
     },
     __self: this
   }, "J."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].p, {
     style: aboutParagraph3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 248
+      lineNumber: 261
     },
     __self: this
   }, "Although able to complete college degrees in Accounting, Business Administration and Information Architecture, J", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30270,7 +30292,7 @@ function About() {
     alt: "Santa Baking Cookies",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 251
+      lineNumber: 264
     },
     __self: this
   }), " ", "maintains the blue-collar work ethic he learned growing up in Odessa Texas. From the oil rigs of West Texas to the board rooms of the largest tax accounting firm in the world, J has appreciated a diverse work history, as well as, a diverse understanding and tolerance of people and of cultures. Having played the guitar and having sang in bands from Heavy Metal to Country music for more than 30 years, J has an extensive background in music entertainment.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -30279,20 +30301,20 @@ function About() {
     md: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262
+      lineNumber: 275
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263
+      lineNumber: 276
     },
     __self: this
   }, "Heather"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring__WEBPACK_IMPORTED_MODULE_2__["animated"].p, {
     style: aboutParagraph4,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264
+      lineNumber: 277
     },
     __self: this
   }, "Very few things in life light up a room like Heather when she walks in the room. God given natural beauty complimented with a", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30301,7 +30323,7 @@ function About() {
     alt: "the Mrs Enjoying Barbeque",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 267
+      lineNumber: 280
     },
     __self: this
   }), " ", "voice that could only be bestowed from the heavens. Coming from a family of outstanding musicians, Heather's natural talent was found very early, and she began formal training at the age of 4. Born and raised on the beaches near Tampa, FL, Heather was a bit of a beach bunni, but says she loves Colorado and now she is a snow bunni. \uD83D\uDE0A"))))));
@@ -30407,7 +30429,7 @@ module.exports = "/_next/static/images/roughneckProfilePic-e7aae83eafe1848655759
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -30432,5 +30454,5 @@ module.exports = dll_1ad69d3c0c6c675650a5;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map

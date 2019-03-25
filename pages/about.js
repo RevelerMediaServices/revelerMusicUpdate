@@ -198,9 +198,22 @@ function About() {
       <AboutDiv>
         <NextSeo
           config={{
-            title: "Reveler Music, LLC - About Page ",
+            title:
+              "Reveler Music, LLC - #BringinTheParty ** Music Entertainment Services - About Page",
             description:
-              "Meet Reveler Music, LLC, we offer music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas."
+              "Meet Reveler Music, LLC, we offer music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas.",
+            canonical: "https://revelermusic.com",
+            openGraph: {
+              type: "website",
+              url: "https://revelermusic.com/about",
+              title: "Reveler Music, LLC - About Page",
+              description:
+                "Meet Reveler Music, LLC, we offer music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas.",
+              site_name: "Revler Music, LLC"
+            },
+            twitter: {
+              handle: "@jwgravesco"
+            }
           }}
         />
         <h1>About Reveler Music, LLC</h1>

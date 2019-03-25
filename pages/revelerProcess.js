@@ -227,9 +227,22 @@ function RevelerProcess() {
       <RevelerProcessDiv>
         <NextSeo
           config={{
-            title: "Reveler Music, LLC - Process Page ",
+            title:
+              "Reveler Music, LLC - #BringinTheParty ** Music Entertainment Services - Process Page ",
             description:
-              "In order to guarantee a great product at a fair price, Reveler Music, LLC has a 4 step Experience Guarantee Process."
+              "In order to guarantee a great product at a fair price, Reveler Music, LLC has a 4 step Experience Guarantee Process.",
+            canonical: "https://revelermusic.com",
+            openGraph: {
+              type: "website",
+              url: "https://revelermusic.com/revelerProcess",
+              title: "Reveler Music, LLC - Process Page",
+              description:
+                "In order to guarantee a great product at a fair price, Reveler Music, LLC has a 4 step Experience Guarantee Process.",
+              site_name: "Revler Music, LLC"
+            },
+            twitter: {
+              handle: "@jwgravesco"
+            }
           }}
         />
         <h1>The Reveler Process</h1>

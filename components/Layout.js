@@ -70,7 +70,19 @@ function Layout(props) {
           title:
             "Reveler Music, LLC - #BringinTheParty ** Music Entertainment Services",
           description:
-            "Reveler Music, LLC provides Music Entertainment Services for the Colorado Corridor, Denver, Castle Rock, Colorado Springs, Pueblow and the surrounding areas.  Live Music, Live Sound and Open Mics, Karaoke and DJ"
+            "Reveler Music, LLC provides Music Entertainment Services for the Colorado Corridor, Denver, Castle Rock, Colorado Springs, Pueblow and the surrounding areas.  Live Music, Live Sound and Open Mics, Karaoke and DJ",
+          canonical: "https://revelermusic.com",
+          openGraph: {
+            type: "website",
+            url: "https://revelermusic.com/",
+            title: "Reveler Music, LLC - Contact Page",
+            description:
+              "Contact Reveler Music, LLC for music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas.",
+            site_name: "Revler Music, LLC"
+          },
+          twitter: {
+            handle: "@jwgravesco"
+          }
         }}
       />
       <img
