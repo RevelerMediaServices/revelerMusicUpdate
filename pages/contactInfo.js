@@ -19,9 +19,9 @@ function ContactInfo() {
       <ContactInfoDiv>
         <NextSeo
           config={{
-            title: "Reveler Music, LLC - Contact Page",
+            title: "Reveler Music, LLC - Service Page ",
             description:
-              "Next.js starter template with Styled-Components, Firebase, Next-SEO"
+              "Contact Reveler Music, LLC for music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas."
           }}
         />
         <RevelerContact />

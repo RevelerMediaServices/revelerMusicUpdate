@@ -12,99 +12,139 @@ import imgDJ from "../static/images/dj.png";
 import imgKaroke from "../static/images/singer.png";
 
 const ServicesDiv = styled.div`
-  margin: 0;
-  padding: 0;
   color: white;
+  text-align: left;
+  margin: 0;
+  padding: 2vw;
   height: 80vh;
+  font-size: 2vw;
 
-  img {
-    width: 8vw;
-    margin-left: 6.25vw;
+  background: rgba(0, 0, 0, 0.8);
+
+  @media only screen and (max-width: 767px) {
+    height: auto;
   }
 
-  @media only screen and (max-width: 1200px) and (min-width: 700px) {
-    padding-top: 2vh;
-
-    img {
-      width: 10vw;
-    }
-  }
-
-  @media only screen and (max-width: 700px) {
-    padding-top: 2vh;
-
-    img {
-      width: 23vw;
-    }
+  @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    height: auto;
   }
 
   h1 {
     text-align: center;
-    margin: 0;
-    padding: 0;
-    font-size: 3em;
-    height: 13%;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 4.855vw;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 9.6vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    }
   }
 
-  .row {
-    margin: auto;
-    width: 98vw;
-    height: 60%;
-  }
-
-  #pRevelerServicesGoal {
+  #pServicesGoal {
     margin-left: 30vw;
     margin-right: 30vw;
-    font-size: 1.3em;
-    height: 7%;
+    font-size: 1vw;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+
+    @media only screen and (max-width: 767px) {
+      margin-left: 5vw;
+      margin-right: 5vw;
+      font-size: 5vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      margin-left: 15vw;
+      margin-right: 15vw;
+      font-size: 1.618vw;
+    }
   }
 
-  .col {
-    margin: 0.25vw;
-    width: 23.5vw;
-    padding: 0;
-    text-align: center;
-    color: white;
+  .cardImg {
+    width: 5vw;
+    height: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media only screen and (max-width: 767px) {
+      width: 25vw;
+      height: 25vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      width: 15vw;
+      height: 15vw;
+    }
+  }
+
+  .colStyle {
+    @media only screen and (max-width: 767px) {
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+    }
   }
 
   .card {
     background: rgba(0, 0, 0, 0.6);
     height: 50vh;
     width: 100%;
-    margin: 0;
-    padding: 1vw;
+    padding: 2vw;
 
-    -webkit-box-shadow: 0 0 1vw rgba(154, 154, 154, 1);
-    -moz-box-shadow: 0 0 1vw rgba(154, 154, 154, 1);
-    box-shadow: 0 0 1vw rgba(154, 154, 154, 1);
+    -webkit-box-shadow: 0.2vw 0.2vw 1vw rgba(154, 154, 154, 1);
+    -moz-box-shadow: 0.2vw 0.2vw 1vw rgba(154, 154, 154, 1);
+    box-shadow: 0.2vw 0.2vw 1vw rgba(154, 154, 154, 1);
 
     @media only screen and (max-width: 1200px) and (min-width: 700px) {
+      height: 100%;
     }
 
     @media only screen and (max-width: 700px) {
+      height: 100%;
     }
   }
 
   .card-title {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 2.5vw;
+    height: 8vh;
     font-variant: small-caps;
-    margin: 0;
-    padding: 0;
 
-    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+    @media only screen and (max-width: 767px) {
+      font-size: 12vw;
+      height: 100%;
     }
 
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      font-size: 5vw;
+      height: 10vh;
     }
   }
 
   .card-text {
-    margin: 0;
-    padding: 0;
-    font-family: "PT Serif", serif;
-    font-size: 1.2em;
-    font-weight: 600;
+    padding: 1vh;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1vw;
+
+    height: 28vh;
+    overflow-y: auto;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 5vw;
+      height: 100%;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      font-size: 2vw;
+      height: 100%;
+    }
   }
 `;
 
@@ -158,13 +198,13 @@ function Services() {
       <ServicesDiv>
         <NextSeo
           config={{
-            title: "Reveler Media Services Next.js/Firebase starter",
+            title: "Reveler Music, LLC - Service Page ",
             description:
-              "Next.js starter template with Styled-Components, Firebase, Next-SEO"
+              "Reveler Music, LLC offers music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas."
           }}
         />
-        <h1>Reveler Music, LLC Entertainment Services</h1>
-        <p id="pRevelerServicesGoal">
+        <h1>Reveler Music, LLC Services</h1>
+        <p id="pServicesGoal">
           Reveler's goal is to provide an amazing experience at a fair price.
         </p>
 
@@ -172,16 +212,17 @@ function Services() {
           <Col className="colStyle" xl="3" md="6" xs="12">
             <animated.div style={card1}>
               <Card body outline color="secondary">
-                <div>
-                  <img src={imgLiveMusic} alt="Live Music icon" />
-                </div>
+                <img
+                  className="cardImg"
+                  src={imgLiveMusic}
+                  alt="Live Music icon"
+                />
                 <CardBody>
                   <CardTitle>Live Music</CardTitle>
                   <CardText className="justify-content-center">
                     With music brands to cover any event or occasion, Reveler
                     Music offers Live Music services for Family Friendly or 21+
-                    occasions. Acoustic Vocal Duo to a full band, and everything
-                    in between.
+                    occasions.
                   </CardText>
                 </CardBody>
               </Card>
@@ -190,9 +231,7 @@ function Services() {
           <Col className="colStyle" xl="3" md="6" xs="12">
             <animated.div style={card2}>
               <Card body outline color="secondary">
-                <div>
-                  <img src={imgOpenMic} alt="Open Mic icon" />
-                </div>
+                <img className="cardImg" src={imgOpenMic} alt="Open Mic icon" />
                 <CardBody>
                   <CardTitle>Open Mics</CardTitle>
                   <CardText className="justify-content-center">
@@ -207,9 +246,7 @@ function Services() {
           <Col className="colStyle" xl="3" md="6" xs="12">
             <animated.div style={card3}>
               <Card body outline color="secondary">
-                <div>
-                  <img src={imgKaroke} alt="mixer icon" />
-                </div>
+                <img className="cardImg" src={imgKaroke} alt="mixer icon" />
                 <CardBody>
                   <CardTitle>Karaoke</CardTitle>
                   <CardText className="justify-content-center">
@@ -224,9 +261,7 @@ function Services() {
           <Col className="colStyle" xl="3" md="6" xs="12">
             <animated.div style={card4}>
               <Card body outline color="secondary">
-                <div>
-                  <img src={imgDJ} alt="mixer icon" />
-                </div>
+                <img className="cardImg" src={imgDJ} alt="mixer icon" />
                 <CardBody>
                   <CardTitle>DJ</CardTitle>
                   <CardText className="justify-content-center">

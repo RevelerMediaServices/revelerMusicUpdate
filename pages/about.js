@@ -13,82 +13,113 @@ import imgHeather from "../static/images/heatherSelfie.jpg";
 
 const AboutDiv = styled.div`
   margin: 0;
-  padding: 0;
+  padding-left: 1vw;
+  padding-right: 1vw;
   background: white;
-
   height: 80vh;
-
-  .row {
-    margin: 0;
-    padding: 0;
-  }
+  overflow-y: auto;
 
   h1 {
-    font-size: 4.855em;
     text-align: center;
-    height: 15%;
-
     font-family: "Fjalla One", sans-serif;
+    font-size: 4.855vw;
 
-    @media (max-width: 576px) {
-      font-size: 2em;
+    @media only screen and (max-width: 767px) {
+      font-size: 9.6vw;
     }
 
-    @media (min-width: 576px) {
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      font-size: 6.855vw;
+    }
+  }
+
+  .colStyle {
+    @media only screen and (max-width: 767px) {
+      margin-top: 2vh;
+      margin-bottom: 2vh;
     }
 
-    @media (min-width: 992px) {
-    }
-
-    @media (min-width: 1200px) {
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      margin-top: 1vh;
+      margin-bottom: 1vh;
     }
   }
 
   h2 {
-    font-family: "Special Elite", cursive;
-    font-size: 2.023em;
     text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 2.4vw;
+    color: black;
+    text-shadow: 0.05vw 0.05vw 0.05vw rgba(255, 255, 255, 1);
+    height: 6vh;
+    margin-bottom: 1vh;
     font-variant: small-caps;
 
-    @media (max-width: 576px) {
-      font-size: 1.214em;
+    @media only screen and (max-width: 767px) {
+      font-size: 9vw;
+      height: 8vh;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      font-size: 5vw;
+      height: 8vh;
     }
   }
 
   p {
-    font-family: "Special Elite", cursive;
-    font-size: 1em;
-    text-align: justify;
+    padding: 0;
     font-family: "Noto Sans", sans-serif;
-    width: 100%;
-    height: 60%;
+    font-size: 0.95vw;
 
-    @media (max-width: 576px) {
-      font-size: 0.809em;
+    width: 100%;
+    overflow-y: auto;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 5vw;
+      height: 100%;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      font-size: 2vw;
+      height: 100%;
     }
   }
 
   img {
-    float: right;
     margin: 1vw;
-    z-index: -1;
+
+    @media only screen and (max-width: 767px) {
+      margin: 2vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      margin: 1vw;
+    }
   }
 
   #imgRMBusCard {
     width: 21vw;
     float: left;
 
-    @media (max-width: 576px) {
-      width: 42vw;
+    @media only screen and (max-width: 767px) {
+      width: 50vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      width: 30vw;
     }
   }
 
   #imgRMLogo {
-    width: 15vw;
+    width: 16vw;
     float: right;
 
-    @media (max-width: 576px) {
+    @media only screen and (max-width: 767px) {
       width: 45vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      width: 27vw;
     }
   }
 
@@ -98,8 +129,12 @@ const AboutDiv = styled.div`
     outline: 0.15vw dashed black;
     border: 0.4vw solid white;
 
-    @media (max-width: 576px) {
+    @media only screen and (max-width: 767px) {
       width: 45vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      width: 27vw;
     }
   }
 
@@ -110,8 +145,12 @@ const AboutDiv = styled.div`
     outline: 0.15vw dashed black;
     border: 0.4vw solid white;
 
-    @media (max-width: 576px) {
+    @media only screen and (max-width: 767px) {
       width: 45vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      width: 27vw;
     }
   }
 `;
@@ -159,15 +198,15 @@ function About() {
       <AboutDiv>
         <NextSeo
           config={{
-            title: "Reveler Media Services Next.js/Firebase starter",
+            title: "Reveler Music, LLC - About Page ",
             description:
-              "Next.js starter template with Styled-Components, Firebase, Next-SEO"
+              "Meet Reveler Music, LLC, we offer music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas."
           }}
         />
         <h1>About Reveler Music, LLC</h1>
         <div className="rowWrapper">
           <Row>
-            <Col xl={3} md={6}>
+            <Col className="colStyle" xl={3} md={6}>
               <h2>Meet Reveler</h2>
               <animated.p style={aboutParagraph}>
                 Most work very hard each and every day to provide for himself or{" "}
@@ -184,7 +223,7 @@ function About() {
                 you love happy and having a good time.
               </animated.p>
             </Col>
-            <Col xl={3} md={6}>
+            <Col className="colStyle" xl={3} md={6}>
               <h2>Reveler Process</h2>
               <animated.p style={aboutParagraph2}>
                 In order to ensure 100% complete and total being happy and
@@ -204,7 +243,7 @@ function About() {
                 step, You go Party down, and enjoy what you have earned.
               </animated.p>
             </Col>
-            <Col xl={3} md={6} className="colStyle">
+            <Col className="colStyle" xl={3} md={6} className="colStyle">
               <h2>J.</h2>
               <animated.p style={aboutParagraph3}>
                 Although able to complete college degrees in Accounting,
@@ -220,7 +259,7 @@ function About() {
                 background in music entertainment.
               </animated.p>
             </Col>
-            <Col xl={3} md={6}>
+            <Col className="colStyle" xl={3} md={6}>
               <h2>Heather</h2>
               <animated.p style={aboutParagraph4}>
                 Very few things in life light up a room like Heather when she

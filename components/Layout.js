@@ -28,12 +28,13 @@ const LayoutDiv = styled.div`
 
     @media only screen and (max-width: 767px) {
       height: 77vh;
-      overflow: scroll;
+      overflow-y: scroll;
+      overflow-x: hidden;
     }
 
     @media only screen and (max-width: 1200px) and (min-width: 700px) {
       font-size: 1em;
-      overflow: scroll;
+      overflow-y: scroll;
     }
   }
 

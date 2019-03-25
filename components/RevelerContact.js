@@ -29,6 +29,7 @@ const RevelerContactDiv = styled.div`
 
   margin: 0;
   padding: 0;
+  padding-top: 1vh;
 
   .contactFormPageHeader {
     color: white;
@@ -36,12 +37,12 @@ const RevelerContactDiv = styled.div`
     font-size: 3vw;
     font-family: "PT Sans", sans-serif;
 
-    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+    @media only screen and (max-width: 767px) {
       font-size: 6vw;
     }
 
-    @media only screen and (max-width: 700px) {
-      font-size: 8vw;
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      font-size: 6vw;
     }
   }
 
@@ -51,23 +52,17 @@ const RevelerContactDiv = styled.div`
     font-family: "PT Sans", sans-serif;
     font-size: 2vw;
 
-    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+    @media only screen and (max-width: 767px) {
+      font-size: 5vw;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
       font-size: 2.5vw;
     }
-
-    @media only screen and (max-width: 700px) {
-      font-size: 6.5vw;
-    }
-  }
-
-  .contactFormButtonRow {
   }
 
   .asLabel {
-    padding-top: 0.5vh;
-  }
-
-  .asInput {
+    padding-top: 1vh;
   }
 
   .newContactFormButtonDiv {
@@ -82,14 +77,14 @@ const RevelerContactDiv = styled.div`
     margin-top: 2vh;
     background-color: rgb(26, 26, 28, 1);
 
-    @media only screen and (max-width: 1200px) and (min-width: 700px) {
-      margin-left: 5%;
-      margin-right: 10%;
-    }
-
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 767px) {
       margin-left: 5%;
       margin-right: 5%;
+    }
+
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      margin-left: 5%;
+      margin-right: 10%;
     }
   }
 
@@ -97,12 +92,12 @@ const RevelerContactDiv = styled.div`
     font-family: "PT Sans", sans-serif;
     font-size: 1vw;
 
-    @media only screen and (max-width: 1200px) and (min-width: 700px) {
-      font-size: 1.9vw;
+    @media only screen and (max-width: 767px) {
+      font-size: 3.5vw;
     }
 
-    @media only screen and (max-width: 700px) {
-      font-size: 4.2vw;
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+      font-size: 1.5vw;
     }
   }
 `;
@@ -145,11 +140,11 @@ function RevelerContact() {
     <RevelerContactDiv>
       <div className="contactFormPageHeader">Contact Reveler Music</div>
       <Row>
-        <Col xl="8" lg="7" md="6" xs="12">
+        <Col xl="8" md="6" xs="12">
           <Form onSubmit={onSubmit}>
             <Container className="newContactFormContainerDiv">
               <Row>
-                <Col lg="6" xs="12">
+                <Col xl="6" md="12">
                   <Label for="fname" className="asLabel">
                     First Name
                   </Label>
@@ -163,7 +158,7 @@ function RevelerContact() {
                     className="asInput"
                   />
                 </Col>
-                <Col lg="6" xs="12">
+                <Col xl="6" md="12">
                   <Label for="lNameCompanyName" className="asLabel">
                     Last/Company Name
                   </Label>
@@ -179,7 +174,7 @@ function RevelerContact() {
                 </Col>
               </Row>
               <Row>
-                <Col lg="6" xs="12">
+                <Col xl="6" md="12">
                   <Label for="dateOfEvent" className="asLabel">
                     Date of Event
                   </Label>
@@ -193,7 +188,7 @@ function RevelerContact() {
                     className="asInput"
                   />
                 </Col>
-                <Col lg="6" xs="12">
+                <Col xl="6" md="12">
                   <Label for="phoneNumber" className="asLabel">
                     Phone Number
                   </Label>
@@ -209,7 +204,7 @@ function RevelerContact() {
                 </Col>
               </Row>
               <Row>
-                <Col lg="6" xs="12">
+                <Col xl="6" md="12">
                   <Label for="bestTimeToCall" className="asLabel">
                     Best Time to Call
                   </Label>
@@ -223,7 +218,7 @@ function RevelerContact() {
                     className="asInput"
                   />
                 </Col>
-                <Col lg="6" xs="12">
+                <Col xl="6" md="12">
                   <Label for="emailAddress" className="asLabel">
                     Email Address
                   </Label>
@@ -262,7 +257,7 @@ function RevelerContact() {
             </Container>
           </Form>
         </Col>
-        <Col xl="4" lg="5" md="6" xs="12" id="MainColumn2">
+        <Col xl="4" md="6" xs="12" id="MainColumn2">
           <div>
             <Card className="contactCards" body inverse>
               <div className="contactCardsWords">

@@ -25,7 +25,7 @@ const RevelerProcessDiv = styled.div`
   margin: 0;
   padding: 2vw;
   height: 80vh;
-  font-size: 2vmin;
+  font-size: 2vw;
 
   background: rgba(0, 0, 0, 0.8);
 
@@ -227,9 +227,9 @@ function RevelerProcess() {
       <RevelerProcessDiv>
         <NextSeo
           config={{
-            title: "Reveler Media RevelerProcess Next.js/Firebase starter",
+            title: "Reveler Music, LLC - Process Page ",
             description:
-              "Next.js starter template with Styled-Components, Firebase, Next-SEO"
+              "In order to guarantee a great product at a fair price, Reveler Music, LLC has a 4 step Experience Guarantee Process."
           }}
         />
         <h1>The Reveler Process</h1>

@@ -193,9 +193,9 @@ function Index() {
       <IndexDiv>
         <NextSeo
           config={{
-            title: "Reveler Media Services Next.js/Firebase starter",
+            title: "Reveler Music, LLC - Landing Page ",
             description:
-              "Next.js starter template with Styled-Components, Firebase, Next-SEO"
+              "Reveler Music, LLC offers music entertainment services, such as, Live Music, Live Sound and Open Mics, Karaoke and DJ, to Pueblo, Colorado Springs, Castle Rock, Denver and the surrounding areas."
           }}
         />
         <div id="jName">J. Graves</div>
