@@ -16,15 +16,7 @@ const AboutDiv = styled.div`
   padding: 0;
   background: white;
 
-  height: 100%;
-
-  @media only screen and (max-width: 767px) {
-    height: 100%;
-  }
-
-  @media only screen and (max-width: 1200px) and (min-width: 767px) {
-    height: auto;
-  }
+  height: 80vh;
 
   .row {
     margin: 0;

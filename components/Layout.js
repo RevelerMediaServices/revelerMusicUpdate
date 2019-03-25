@@ -28,10 +28,10 @@ const LayoutDiv = styled.div`
 
     @media only screen and (max-width: 767px) {
       height: 77vh;
+      overflow: scroll;
     }
 
     @media only screen and (max-width: 1200px) and (min-width: 700px) {
-      height: 77vh;
       font-size: 1em;
       overflow: scroll;
     }
@@ -44,11 +44,15 @@ const LayoutDiv = styled.div`
   #imgRMLogoLayout {
     width: 20vw;
     position: fixed;
-    bottom: 8%;
+    top: 1%;
     right: 0;
     z-index: 9999;
 
     @media only screen and (max-width: 767px) {
+      position: fixed;
+      bottom: 8%;
+      right: 0;
+      z-index: 9999;
       width: 40vw;
     }
 
