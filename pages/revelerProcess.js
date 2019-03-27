@@ -30,11 +30,11 @@ const RevelerProcessDiv = styled.div`
   background: rgba(0, 0, 0, 0.8);
 
   @media only screen and (max-width: 767px) {
-    height: 100%;
+    height: auto;
   }
 
   @media only screen and (max-width: 1200px) and (min-width: 767px) {
-    height: 100%;
+    height: auto;
   }
 
   h1 {
