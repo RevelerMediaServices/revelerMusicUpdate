@@ -101,29 +101,29 @@ function RMNavbar() {
               <NavbarBrand />
               <NavItem>
                 <NavLink
-                  href={process.env.BACKEND_URL + "/"}
+                  href={"/"}
                   className="nav-link"
                 >
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={process.env.BACKEND_URL + "/about"}>
+                <NavLink href={"/about"}>
                   About
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={process.env.BACKEND_URL + "/contactInfo"}>
+                <NavLink href={"/contactInfo"}>
                   Contact
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={process.env.BACKEND_URL + "/revelerProcess"}>
+                <NavLink href={"/revelerProcess"}>
                   Process
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href={process.env.BACKEND_URL + "/services"}>
+                <NavLink href={"/services"}>
                   Services
                 </NavLink>
               </NavItem>

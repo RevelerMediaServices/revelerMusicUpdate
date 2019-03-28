@@ -1,5 +1,6 @@
-import RMNavbar from "./RMNavbar";
+import { Link } from 'next/link'
 
+import RMNavbar from "./RMNavbar";
 import Footer from "./Footer";
 
 import styled from "styled-components";
@@ -15,6 +16,8 @@ const LayoutDiv = styled.div`
   background-image: url(${imgBG});
   background-size: 100% 100%;
 
+  min-height: 30vw;
+
   @media screen and (max-width: 767px) {
     background-image: url(${imgMobileBG});
     background-size: 100% 100%;
@@ -25,16 +28,15 @@ const LayoutDiv = styled.div`
     top: 10vh;
     width: 100vw;
     height: 80vh;
+      overflow-y: scroll;
+      overflow-x: hidden;
 
     @media only screen and (max-width: 767px) {
       height: 77vh;
-      overflow-y: scroll;
-      overflow-x: hidden;
     }
 
     @media only screen and (max-width: 1200px) and (min-width: 700px) {
       font-size: 1em;
-      overflow-y: scroll;
     }
   }
 
@@ -45,7 +47,6 @@ const LayoutDiv = styled.div`
   #imgRMLogoLayout {
     width: 20vw;
     position: fixed;
-    top: 1%;
     right: 0;
     z-index: 9999;
 
@@ -57,7 +58,11 @@ const LayoutDiv = styled.div`
       width: 40vw;
     }
 
-    @media only screen and (max-width: 1200px) and (min-width: 700px) {
+    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    width: 20vw;
+    position: fixed;
+    right: 0;
+    z-index: 9999;
     }
   }
 `;
@@ -85,11 +90,14 @@ function Layout(props) {
           }
         }}
       />
-      <img
+      
+      <a href={"/"} >
+       <img
         id="imgRMLogoLayout"
         src={imgRMLogoLayout}
         alt="Reveler Music, LLC Logo"
       />
+      </a>
       <div id="navbarDiv">
         <RMNavbar />
       </div>

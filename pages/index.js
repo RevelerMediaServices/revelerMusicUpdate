@@ -16,39 +16,39 @@ const IndexDiv = styled.div`
   width: 100vw;
 
   #jName {
-    font-size: 2.5em;
+    font-size: 2.5vw;
     position: absolute;
     top: 70%;
     left: 20%;
     font-family: "Allerta Stencil", sans-serif;
     font-weight: 500;
 
-    @media only screen and (max-width: 767px) {
-      font-size: 1.5em;
+    @media only screen and (max-width: 600px) {
+      font-size: 5vw;
       top: 8%;
       left: 2%;
     }
 
-    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    @media only screen and (max-width: 1200px) and (min-width: 600px) {
     }
   }
 
   #heatherName {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.5vw;
     position: absolute;
     top: 35%;
     right: 19%;
     font-family: "Allerta Stencil", sans-serif;
     font-weight: 500;
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 600px) {
       top: 40%;
       right: 7%;
-      font-size: 1.5em;
+      font-size: 5vw;
     }
 
-    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    @media only screen and (max-width: 1200px) and (min-width: 600px) {
     }
   }
 
@@ -58,13 +58,13 @@ const IndexDiv = styled.div`
     left: 50%;
     width: 25vw;
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 600px) {
       left: 5%;
       top: 15%;
       width: 50vw;
     }
 
-    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    @media only screen and (max-width: 1200px) and (min-width: 600px) {
     }
   }
 
@@ -77,7 +77,7 @@ const IndexDiv = styled.div`
       width: 16vw;
     }
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 600px) {
       position: absolute;
       top: 48%;
       left: 1%;
@@ -87,7 +87,7 @@ const IndexDiv = styled.div`
       }
     }
 
-    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    @media only screen and (max-width: 1200px) and (min-width: 600px) {
     }
   }
 
@@ -100,7 +100,7 @@ const IndexDiv = styled.div`
       width: 16vw;
     }
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 600px) {
       position: absolute;
       top: 60%;
 
@@ -109,30 +109,30 @@ const IndexDiv = styled.div`
       }
     }
 
-    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    @media only screen and (max-width: 1200px) and (min-width: 600px) {
     }
   }
 
   #landingPageWordsAtBottom {
     position: absolute;
-    font-size: 2em;
+    font-size: 2vw;
     left: 6%;
     bottom: 0;
     color: white;
     font-family: "Luckiest Guy", cursive;
 
-    @media only screen and (max-width: 767px) {
-      font-size: 0.8em;
-      bottom: 10%;
+    @media only screen and (max-width: 600px) {
+      font-size: 3vw;
+      bottom: 15%;
     }
 
-    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    @media only screen and (max-width: 1200px) and (min-width: 600px) {
     }
   }
 
   #heatherLoveInstagram {
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     right: 10%;
     top: 55%;
     color: white;
@@ -142,9 +142,9 @@ const IndexDiv = styled.div`
       width: 3vw;
     }
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 600px) {
       position: absolute;
-      font-size: 1em;
+      font-size: 5vw;
       top: 20%;
       right: 5%;
 
@@ -156,7 +156,8 @@ const IndexDiv = styled.div`
       }
     }
 
-    @media only screen and (max-width: 1200px) and (min-width: 767px) {
+    @media only screen and (max-width: 1200px) and (min-width: 600px) {
+
     }
   }
 `;

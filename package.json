@@ -1,7 +1,7 @@
 {
   "name": "rms",
   "version": "1.0.0",
-  "description": "Reveler Media Services Web Presence",
+  "description": "Reveler Music, LLC",
   "main": "index.js",
   "scripts": {
     "dev": "next",
