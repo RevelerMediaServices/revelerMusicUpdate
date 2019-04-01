@@ -30480,7 +30480,7 @@ module.exports = "/_next/static/images/mobileLandingPage-4dc389550e2a1f24ddc3c1a
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -30505,5 +30505,5 @@ module.exports = dll_1ad69d3c0c6c675650a5;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map

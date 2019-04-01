@@ -30439,7 +30439,7 @@ module.exports = "/_next/static/images/roughneckProfilePic-0bf2c3e3f8ecafb8b8ec0
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -30464,5 +30464,5 @@ module.exports = dll_1ad69d3c0c6c675650a5;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map
