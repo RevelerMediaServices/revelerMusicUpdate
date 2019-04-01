@@ -3,7 +3,7 @@ const withCSS = require("@zeit/next-css");
 
 module.exports = optimizedImages(
   withCSS({
-    optimizeImagesInDev: true,
+    optimizeImagesInDev: false,
     exportPathMap: function() {
       return {
         "/": { page: "/" },
